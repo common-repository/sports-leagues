@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "anwp-sl/teams",
+  "title": "Teams",
+  "category": "anwp-sl",
+  "description": "Teams",
+  "textdomain": "sports-leagues",
+  "attributes": {
+    "tournament_id": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_id": {
+      "type": "string",
+      "default": ""
+    },
+    "logo_size": {
+      "type": "string",
+      "default": ""
+    },
+    "layout": {
+      "type": "string",
+      "default": ""
+    },
+    "team_title": {
+      "type": "string",
+      "default": ""
+    },
+    "show_team_name": {
+      "type": "boolean",
+      "default": true
+    },
+    "exclude_ids": {
+      "type": "string",
+      "default": ""
+    },
+    "include_ids": {
+      "type": "string",
+      "default": ""
+    },
+    "width": {
+      "type": "string",
+      "default": ""
+    },
+    "text_size": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "className": false,
+    "customClassName": true,
+    "html": false
+  }
+}

@@ -1,0 +1,5188 @@
+# Copyright (C) 2024 Sports Leagues
+# This file is distributed under the same license as the Sports Leagues package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sports Leagues\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-11 18:11+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: sports-leagues/admin/views/configurator.php:18, sports-leagues/admin/views/customize.php:17, sports-leagues/admin/views/dashboard.php:16, sports-leagues/admin/views/game-events.php:18, sports-leagues/admin/views/player-stats.php:18, sports-leagues/admin/views/shortcodes-builder.php:17, sports-leagues/admin/views/standing-settings.php:17, sports-leagues/admin/views/support.php:17, sports-leagues/admin/views/toolbox--updater.php:14, sports-leagues/admin/views/toolbox.php:14, sports-leagues/admin/views/tools-export.php:17, sports-leagues/admin/views/tools-import.php:17, sports-leagues/admin/views/tools.php:17, sports-leagues/admin/views/tutorials.php:16, sports-leagues/class-sports-leagues.php:928, sports-leagues/class-sports-leagues.php:941, sports-leagues/class-sports-leagues.php:1008, sports-leagues/class-sports-leagues.php:1045, sports-leagues/class-sports-leagues.php:1060, sports-leagues/class-sports-leagues.php:1075, sports-leagues/class-sports-leagues.php:1090, sports-leagues/class-sports-leagues.php:1105, sports-leagues/class-sports-leagues.php:1120, sports-leagues/class-sports-leagues.php:1135, sports-leagues/includes/class-sports-leagues-standing.php:171
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:34, sports-leagues/admin/views/configurator.php:129, sports-leagues/includes/class-sports-leagues-data.php:684
+msgid "Basketball"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:38, sports-leagues/admin/views/configurator.php:166, sports-leagues/includes/class-sports-leagues-data.php:688
+msgid "Handball"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:42, sports-leagues/admin/views/configurator.php:187, sports-leagues/includes/class-sports-leagues-data.php:692
+msgid "Rugby"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:46, sports-leagues/admin/views/configurator.php:208, sports-leagues/includes/class-sports-leagues-data.php:700
+msgid "American football"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:50, sports-leagues/admin/views/configurator.php:141, sports-leagues/includes/class-sports-leagues-data.php:696
+msgid "Ice Hockey"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:54, sports-leagues/includes/class-sports-leagues-data.php:704
+msgid "Other"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:131
+msgctxt "config basketball: position"
+msgid "Point Guard|P-G;Shooting Guard|S-G;Small Forward|S-F;Power Forward|P-F;Center|C;Power Forward and Center|C-F;Point Guard and Shooting Guard|G;Forward Center|F-C;Small Forward and Power Forward|F;Shooting Guard and Small Forward|G-F"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:132
+msgctxt "config basketball: roster-status"
+msgid "in team;on loan;on trial"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:133
+msgctxt "config basketball: game-player-groups"
+msgid "Starters;Bench"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:134
+msgctxt "config basketball: game-team-stats"
+msgid "Field Goals %;Three Pointers %;Free Throws %;Rebounds;Assists;Steals;Blocks;Turnovers;Fouls"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:135
+msgctxt "config basketball: num_of_periods"
+msgid "4"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:136
+msgctxt "config basketball: standing_str__all_win"
+msgid "Wins|W"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:137
+msgctxt "config basketball: standing_str__all_loss"
+msgid "Losses|L"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:138
+msgctxt "config basketball: standing_str__ratio"
+msgid "Winning Percentage|PCT"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:143
+msgctxt "config ice_hockey: position"
+msgid "Goaltender|G;Left Defenceman|L;Right Defenceman|R;Left Wing|LW;Centre|C;Right Wing|RW"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:144
+msgctxt "config ice_hockey: roster-status"
+msgid "in team;on loan;on trial"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:145
+msgctxt "config ice_hockey: roster-groups"
+msgid "Goalies;Defense;Forwards"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:146
+msgctxt "config ice_hockey: game-player-groups"
+msgid "Goalies;Defense;Forwards"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:147
+msgctxt "config ice_hockey: game-team-stats"
+msgid "Shots;Hits;Faceoffs Won;Power Play Opportunities;Total Penalties;Penalty Minutes;Blocked Shots;Takeaways;Giveaways"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:148
+msgctxt "config ice_hockey: num_of_periods"
+msgid "3"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:149
+msgctxt "config ice_hockey: points_ft_win"
+msgid "2"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:150
+msgctxt "config ice_hockey: points_ov_win"
+msgid "2"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:151
+msgctxt "config ice_hockey: points_pen_win"
+msgid "2"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:152
+msgctxt "config ice_hockey: points_ft_loss"
+msgid "0"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:153
+msgctxt "config ice_hockey: points_ov_loss"
+msgid "1"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:154
+msgctxt "config ice_hockey: points_pen_loss"
+msgid "1"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:155
+msgctxt "config ice_hockey: standing_str__played"
+msgid "Games Played|GP"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:156
+msgctxt "config ice_hockey: standing_str__all_win"
+msgid "Wins|W"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:157
+msgctxt "config ice_hockey: standing_str__ft_loss"
+msgid "Losses|L"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:158
+msgctxt "config ice_hockey: standing_str_ov_loss"
+msgid "Overtime Losses|OTL"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:159
+msgctxt "config ice_hockey: standing_str_pen_loss"
+msgid "Shootout Losses|SOL"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:160
+msgctxt "config ice_hockey: standing_str__pts"
+msgid "Total Points|PTS"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:161
+msgctxt "config ice_hockey: standing_str__sf"
+msgid "Goals For|GF"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:162
+msgctxt "config ice_hockey: standing_str__sa"
+msgid "Goals Against|GA"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:163
+msgctxt "config ice_hockey: standing_str__sd"
+msgid "Goal Differential|DIFF"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:168
+msgctxt "config handball: position"
+msgid "Goalkeeper|GK;Left Back|LB;Centre Back|CB;Right Back|RB;Left Winger|LW;Right Winger|RW;Line Player|LP"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:169
+msgctxt "config handball: roster-status"
+msgid "in team;on loan;on trial"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:170
+msgctxt "config handball: roster-groups"
+msgid "Goalkeepers;Field players"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:171
+msgctxt "config handball: game-player-groups"
+msgid "Lineups;Substitutes"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:172
+msgctxt "config handball: game-team-stats"
+msgid "Total Shots;Total Goals;7m Shots;7m Goals;Total Misses;Technical Faults;2 min Suspensions;Warnings;Disqualifications"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:173
+msgctxt "config handball: num_of_periods"
+msgid "2"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:174
+msgctxt "config handball: points_ft_win"
+msgid "2"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:175
+msgctxt "config handball: points_draw"
+msgid "1"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:176
+msgctxt "config handball: points_ft_loss"
+msgid "0"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:177
+msgctxt "config handball: standing_str__played"
+msgid "Played|Pld"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:178
+msgctxt "config handball: standing_str__all_win"
+msgid "Won|W"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:179
+msgctxt "config handball: standing_str__draw"
+msgid "Drawn|D"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:180
+msgctxt "config handball: standing_str__all_loss"
+msgid "Lost|L"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:181
+msgctxt "config handball: standing_str__sf"
+msgid "Goals For|GF"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:182
+msgctxt "config handball: standing_str__sa"
+msgid "Goals Against|GA"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:183
+msgctxt "config handball: standing_str__sd"
+msgid "Goal Difference|GD"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:184
+msgctxt "config handball: standing_str__pts"
+msgid "Points|Pts"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:189
+msgctxt "config rugby: position"
+msgid "Full back;Right wing;Outside centre;Inside centre;Left wing;Fly-half;Scrum-half;Loosehead prop;Hooker;Tighthead prop;Lock;Blindside flanker;Openside flanker;Number eight"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:190
+msgctxt "config rugby: roster-status"
+msgid "in team;on loan;on trial"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:191
+msgctxt "config rugby: game-player-groups"
+msgid "Lineups;Substitutes"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:192
+msgctxt "config rugby: game-team-stats"
+msgid "Possession;Territory;Clean breaks;Defenders beaten;Rucks won%;Mauls won;Offloads;Turnovers won;Tackles made;Tackles missed;Tackle success %;Lineouts won;Lineouts lost;Scrums won;Scrums lost;Restarts won;Restarts lost;Penalties conceded;Yellow cards;Red cards"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:193
+msgctxt "config rugby: num_of_periods"
+msgid "2"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:194
+msgctxt "config rugby: points_ft_win"
+msgid "4"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:195
+msgctxt "config rugby: points_draw"
+msgid "2"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:196
+msgctxt "config rugby: points_ft_loss"
+msgid "0"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:197
+msgctxt "config rugby: standing_str__played"
+msgid "Played|P"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:198
+msgctxt "config rugby: standing_str__all_win"
+msgid "Win|W"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:199
+msgctxt "config rugby: standing_str__draw"
+msgid "Draw|D"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:200
+msgctxt "config rugby: standing_str__all_loss"
+msgid "Lose|L"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:201
+msgctxt "config rugby: standing_str__sf"
+msgid "Points For|PF"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:202
+msgctxt "config rugby: standing_str__sa"
+msgid "Points Against|PA"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:203
+msgctxt "config rugby: standing_str__sd"
+msgid "Points Difference|PD"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:204
+msgctxt "config rugby: standing_str__bpts"
+msgid "Bonus Points|BP"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:205
+msgctxt "config rugby: standing_str__pts"
+msgid "Points|Pts"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:210
+msgctxt "config football: position"
+msgid "Safety|S;Cornerback|CB;Defensive end|DE;Defensive tackle|DT;Fullback|FB;Guard|G;Linebacker|LB;Long snapper|LS;Offensive tackle|OT;Punter|P;Placekicker|PK;Quarterback|QB;Running back|RB;Tight end|TE;Wide receiver|WR"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:211
+msgctxt "config football: roster-status"
+msgid "in team;on loan;on trial"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:212
+msgctxt "config football: game-team-stats"
+msgid "Total 1st Downs;Passing 1st Downs;Rushing 1st Downs;1st Downs from Penalties;Total Plays;Total Yards;Yards per Play;Total Drives;Total Passing;Yards per Pass;Interceptions Thrown;Sacks-Yards Lost;Total Rushing;Rushing Attempts;Yards per Rush;Penalties;Total Turnovers;Fumbles lost;Turnovers Interceptions;Possession;Total Interceptions;Total Safeties"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:213
+msgctxt "config football: num_of_periods"
+msgid "4"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:320, sports-leagues/admin/views/game-events.php:25, sports-leagues/includes/class-sports-leagues-blocks.php:67, sports-leagues/includes/class-sports-leagues-customizer.php:228, sports-leagues/includes/class-sports-leagues-text.php:59, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:83
+msgid "Sports Leagues"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:320, sports-leagues/admin/views/configurator.php:322, sports-leagues/class-sports-leagues.php:961, sports-leagues/class-sports-leagues.php:962
+msgid "Sport Configurator"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:323
+msgid "Player Statistics"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:324, sports-leagues/class-sports-leagues.php:977, sports-leagues/class-sports-leagues.php:978, sports-leagues/includes/class-sports-leagues-game.php:749
+msgid "Game Events"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:334, sports-leagues/includes/class-sports-leagues-data.php:427, sports-leagues/includes/class-sports-leagues-game.php:710, sports-leagues/includes/class-sports-leagues-standing.php:1015, sports-leagues/includes/class-sports-leagues-team.php:258
+msgid "Save"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:343, sports-leagues/includes/class-sports-leagues-data.php:381, sports-leagues/includes/class-sports-leagues-game.php:719
+msgid "General Info"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:348, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:472
+msgid "Player Position"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:353
+msgid "Player Roster Status"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:358
+msgid "Player Roster Groups"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:363
+msgid "Player Game Groups"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:368
+msgid "Staff Roster Groups"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:373
+msgid "Staff Game Groups"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:378
+msgid "Official Groups"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:383
+msgid "Game Team Statistics"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:388, sports-leagues/includes/class-sports-leagues-data.php:412
+msgid "Standing Points"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:393
+msgid "Game Structure"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:398
+msgid "Standing Column Names"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:403
+msgid "Team Series (letter)"
+msgstr ""
+
+#: sports-leagues/admin/views/configurator.php:408
+msgid "Tournament Types"
+msgstr ""
+
+#: sports-leagues/admin/views/customize.php:25
+msgid "Customize Options"
+msgstr ""
+
+#: sports-leagues/admin/views/customize.php:63
+msgid "Install SiteOrigin CSS"
+msgstr ""
+
+#: sports-leagues/admin/views/customize.php:61
+msgid "Activate SiteOrigin CSS"
+msgstr ""
+
+#: sports-leagues/admin/views/game-events.php:25
+msgid "Game Events Configurator"
+msgstr ""
+
+#: sports-leagues/admin/views/player-stats.php:168, sports-leagues/admin/views/tutorials.php:117, sports-leagues/admin/views/tutorials.php:140, sports-leagues/admin/views/tutorials.php:148, sports-leagues/admin/views/tutorials.php:175, sports-leagues/admin/views/tutorials.php:220, sports-leagues/class-sports-leagues.php:797, sports-leagues/class-sports-leagues.php:850, sports-leagues/includes/class-sports-leagues-options.php:513, sports-leagues/includes/class-sports-leagues-options.php:522, sports-leagues/includes/class-sports-leagues-options.php:767, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:999
+msgid "Documentation"
+msgstr ""
+
+#: sports-leagues/admin/views/player-stats.php:169
+msgid "Player Stats - Game"
+msgstr ""
+
+#: sports-leagues/admin/views/player-stats.php:171
+msgid "Player Stats - Season"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes-builder.php:23, sports-leagues/admin/views/shortcodes.php:31
+msgid "Shortcode Builder"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes-builder.php:26, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:119
+msgid "Shortcode"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes-builder.php:28, sports-leagues/includes/class-sports-leagues-data.php:432, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:121, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:261, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:464, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:475, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:486, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:497, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:508, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:519, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:542, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:553, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:678, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:689, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:700, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:711, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:762, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:70, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:78, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:86, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:94, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:102, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:110
+msgid "select"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes-builder.php:29, sports-leagues/includes/class-sports-leagues-data.php:376, sports-leagues/includes/class-sports-leagues-game.php:62, sports-leagues/includes/class-sports-leagues-tournament.php:1060, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:122, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:967, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:26
+msgid "Games"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes-builder.php:30, sports-leagues/includes/class-sports-leagues-text.php:705, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:123, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:972, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:26, sports-leagues/templates/shortcode-team-players-stats--v0.php:64, sports-leagues/templates/shortcode-team-players-stats--v1.php:57, sports-leagues/templates/shortcode-team-players-stats--v2.php:70
+msgid "Players Stats"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes-builder.php:31, sports-leagues/includes/class-sports-leagues-data.php:442, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:124, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:194, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:947, sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:26
+msgid "Standing Table"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes-builder.php:32, sports-leagues/includes/class-sports-leagues-standing.php:553, sports-leagues/includes/class-sports-leagues-standing.php:991, sports-leagues/includes/class-sports-leagues-text.php:732, sports-leagues/includes/class-sports-leagues-venue.php:245, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:125, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:952, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:25, sports-leagues/templates/venue/venue-header.php:69
+msgid "Teams"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes-builder.php:33, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:126, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:957
+msgid "Tournament Header"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes-builder.php:34, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:127, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:962
+msgid "Tournament List"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes-builder.php:48
+msgid "copy code"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes-howto.php:19, sports-leagues/admin/views/shortcodes.php:33
+msgid "How To's"
+msgstr ""
+
+#: sports-leagues/admin/views/shortcodes.php:29
+msgid "Basic Shortcodes"
+msgstr ""
+
+#: sports-leagues/admin/views/standing-settings.php:41
+msgid "Standing Settings"
+msgstr ""
+
+#: sports-leagues/admin/views/support.php:36
+msgid "Plugin Support"
+msgstr ""
+
+#: sports-leagues/admin/views/support.php:40
+msgctxt "support page"
+msgid "If you find a bug, need help, or would like to request a feature, please visit"
+msgstr ""
+
+#: sports-leagues/admin/views/support.php:41, sports-leagues/admin/views/tutorials.php:27
+msgctxt "support page"
+msgid "Support forum and Knowledge bases for Sports Leagues plugin"
+msgstr ""
+
+#: sports-leagues/admin/views/support.php:81
+msgctxt "support page"
+msgid "List of DB tables"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:30, sports-leagues/includes/class-sports-leagues-game.php:1543, sports-leagues/includes/class-sports-leagues-helper.php:2057, sports-leagues/includes/class-sports-leagues-helper.php:2100, sports-leagues/includes/class-sports-leagues-player.php:491
+msgid "Player Name"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:37, sports-leagues/admin/views/tools-import.php:220, sports-leagues/admin/views/tools-import.php:371, sports-leagues/includes/class-sports-leagues-official.php:163, sports-leagues/includes/class-sports-leagues-player.php:660, sports-leagues/includes/class-sports-leagues-staff.php:234
+msgid "Short Name"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:42, sports-leagues/includes/class-sports-leagues-player.php:670, sports-leagues/includes/class-sports-leagues-team.php:532, sports-leagues/includes/class-sports-leagues-text.php:327, sports-leagues/templates/player/player-header.php:107
+msgid "Full Name"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:47, sports-leagues/includes/class-sports-leagues-player.php:679, sports-leagues/includes/class-sports-leagues-text.php:399, sports-leagues/templates/player/player-header.php:193
+msgid "Weight"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:52, sports-leagues/includes/class-sports-leagues-player.php:688, sports-leagues/includes/class-sports-leagues-text.php:408, sports-leagues/templates/player/player-header.php:198
+msgid "Height"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:57, sports-leagues/includes/class-sports-leagues-data.php:416, sports-leagues/includes/class-sports-leagues-game.php:1544, sports-leagues/includes/class-sports-leagues-player.php:697, sports-leagues/includes/class-sports-leagues-player.php:1003, sports-leagues/includes/class-sports-leagues-text.php:318, sports-leagues/includes/class-sports-leagues-text.php:912, sports-leagues/templates/player/player-header.php:112, sports-leagues/templates/shortcode-roster--grid.php:111, sports-leagues/templates/shortcode-roster-summary--grid.php:150
+msgid "Position"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:66, sports-leagues/admin/views/tools-import.php:224, sports-leagues/includes/class-sports-leagues-player.php:708, sports-leagues/includes/class-sports-leagues-player.php:1004, sports-leagues/includes/class-sports-leagues-staff.php:244, sports-leagues/includes/class-sports-leagues-staff.php:539, sports-leagues/includes/class-sports-leagues-text.php:345, sports-leagues/includes/class-sports-leagues-text.php:471, sports-leagues/templates/player/player-header.php:117, sports-leagues/templates/staff/staff-header.php:89
+msgid "Current Team"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:73, sports-leagues/admin/views/tools-import.php:328, sports-leagues/includes/class-sports-leagues-player.php:718, sports-leagues/includes/class-sports-leagues-team.php:620, sports-leagues/includes/class-sports-leagues-text.php:336, sports-leagues/templates/player/player-header.php:123
+msgid "National Team"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:80, sports-leagues/admin/views/tools-import.php:236, sports-leagues/admin/views/tools-import.php:375, sports-leagues/includes/class-sports-leagues-official.php:184, sports-leagues/includes/class-sports-leagues-player.php:728, sports-leagues/includes/class-sports-leagues-staff.php:264, sports-leagues/includes/class-sports-leagues-text.php:291, sports-leagues/includes/class-sports-leagues-text.php:363, sports-leagues/includes/class-sports-leagues-text.php:489, sports-leagues/templates/official/official-header.php:100, sports-leagues/templates/player/player-header.php:142, sports-leagues/templates/staff/staff-header.php:106
+msgid "Place of Birth"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:84, sports-leagues/admin/views/tools-import.php:240, sports-leagues/admin/views/tools-import.php:379, sports-leagues/includes/class-sports-leagues-helper.php:2058, sports-leagues/includes/class-sports-leagues-helper.php:2101, sports-leagues/includes/class-sports-leagues-official.php:193, sports-leagues/includes/class-sports-leagues-player.php:757, sports-leagues/includes/class-sports-leagues-player.php:1002, sports-leagues/includes/class-sports-leagues-staff.php:273
+msgid "Date of Birth"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:90
+msgid "Date of Death"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:96, sports-leagues/includes/class-sports-leagues-player.php:737
+msgid "Country of Birth"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:103, sports-leagues/admin/views/tools-import.php:246, sports-leagues/admin/views/tools-import.php:385, sports-leagues/includes/class-sports-leagues-game.php:1541, sports-leagues/includes/class-sports-leagues-official.php:203, sports-leagues/includes/class-sports-leagues-player.php:747, sports-leagues/includes/class-sports-leagues-staff.php:283, sports-leagues/includes/class-sports-leagues-text.php:282, sports-leagues/includes/class-sports-leagues-text.php:354, sports-leagues/includes/class-sports-leagues-text.php:480, sports-leagues/includes/class-sports-leagues-text.php:903, sports-leagues/includes/class-sports-leagues-text.php:939, sports-leagues/templates/official/official-header.php:88, sports-leagues/templates/player/player-header.php:130, sports-leagues/templates/shortcode-roster--grid.php:125, sports-leagues/templates/shortcode-roster-summary--grid.php:164, sports-leagues/templates/shortcode-roster-summary.php:160, sports-leagues/templates/shortcode-roster.php:119, sports-leagues/templates/shortcode-staff-roster--grid.php:108, sports-leagues/templates/shortcode-staff-roster.php:101, sports-leagues/templates/staff/staff-header.php:94
+msgid "Nationality"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:110, sports-leagues/admin/views/tools-import.php:253, sports-leagues/admin/views/tools-import.php:392
+msgid "Nationality 2"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:117, sports-leagues/admin/views/tools-import.php:260, sports-leagues/admin/views/tools-import.php:399, sports-leagues/includes/class-sports-leagues-official.php:223, sports-leagues/includes/class-sports-leagues-official.php:324, sports-leagues/includes/class-sports-leagues-player.php:580, sports-leagues/includes/class-sports-leagues-player.php:787, sports-leagues/includes/class-sports-leagues-staff.php:365, sports-leagues/includes/class-sports-leagues-staff.php:453
+msgid "Bio"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:121, sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:68
+msgid "Player ID"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:127
+msgid "Player External ID"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:152
+msgid "Venue Title"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:158, sports-leagues/admin/views/tools-import.php:316, sports-leagues/includes/class-sports-leagues-team.php:570, sports-leagues/includes/class-sports-leagues-text.php:606, sports-leagues/includes/class-sports-leagues-text.php:741, sports-leagues/includes/class-sports-leagues-venue.php:256, sports-leagues/templates/team/team-header.php:104, sports-leagues/templates/venue/venue-header.php:94
+msgid "Address"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:162, sports-leagues/admin/views/tools-import.php:304, sports-leagues/includes/class-sports-leagues-helper.php:2276, sports-leagues/includes/class-sports-leagues-helper.php:2304, sports-leagues/includes/class-sports-leagues-team.php:540, sports-leagues/includes/class-sports-leagues-text.php:588, sports-leagues/includes/class-sports-leagues-text.php:723, sports-leagues/includes/class-sports-leagues-venue.php:265, sports-leagues/includes/class-sports-leagues-venue.php:525, sports-leagues/templates/team/team-header.php:90, sports-leagues/templates/venue/venue-header.php:62
+msgid "City"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:167, sports-leagues/admin/views/tools-import.php:320, sports-leagues/includes/class-sports-leagues-team.php:579, sports-leagues/includes/class-sports-leagues-text.php:615, sports-leagues/includes/class-sports-leagues-text.php:768, sports-leagues/includes/class-sports-leagues-venue.php:274, sports-leagues/templates/team/team-header.php:109, sports-leagues/templates/venue/venue-header.php:115
+msgid "Website"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:171, sports-leagues/includes/class-sports-leagues-text.php:750, sports-leagues/includes/class-sports-leagues-venue.php:283, sports-leagues/templates/venue/venue-header.php:101
+msgid "Capacity"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:175, sports-leagues/includes/class-sports-leagues-text.php:759, sports-leagues/includes/class-sports-leagues-venue.php:292, sports-leagues/templates/venue/venue-header.php:108
+msgid "Opened"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:179, sports-leagues/includes/class-sports-leagues-team.php:273, sports-leagues/includes/class-sports-leagues-team.php:643, sports-leagues/includes/class-sports-leagues-team.php:660, sports-leagues/includes/class-sports-leagues-venue.php:323
+msgid "Description"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:183
+msgid "Venue ID"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:189
+msgid "Venue External ID"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:214, sports-leagues/includes/class-sports-leagues-game.php:1551, sports-leagues/includes/class-sports-leagues-staff.php:508
+msgid "Staff Name"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:231, sports-leagues/includes/class-sports-leagues-staff.php:255, sports-leagues/includes/class-sports-leagues-staff.php:321, sports-leagues/includes/class-sports-leagues-text.php:543, sports-leagues/templates/staff/staff-history.php:47
+msgid "Job Title"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:264
+msgid "Staff ID"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:270
+msgid "Staff External ID"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:294, sports-leagues/includes/class-sports-leagues-helper.php:2275, sports-leagues/includes/class-sports-leagues-helper.php:2303
+msgid "Team Title"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:300, sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:87
+msgid "Abbreviation"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:309, sports-leagues/includes/class-sports-leagues-helper.php:2060, sports-leagues/includes/class-sports-leagues-helper.php:2103, sports-leagues/includes/class-sports-leagues-helper.php:2277, sports-leagues/includes/class-sports-leagues-helper.php:2305, sports-leagues/includes/class-sports-leagues-league.php:119, sports-leagues/includes/class-sports-leagues-team.php:549, sports-leagues/includes/class-sports-leagues-text.php:597, sports-leagues/templates/team/team-header.php:95
+msgid "Country"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:324, sports-leagues/includes/class-sports-leagues-team.php:587, sports-leagues/includes/class-sports-leagues-text.php:624, sports-leagues/templates/team/team-header.php:118
+msgid "Founded"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:334
+msgid "Team ID"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:340
+msgid "Team External ID"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:365, sports-leagues/includes/class-sports-leagues-game.php:1542, sports-leagues/includes/class-sports-leagues-official.php:379
+msgid "Official Name"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:403
+msgid "Official ID"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:409
+msgid "Official External ID"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:434
+msgid "players"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:439
+msgid "teams"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:444
+msgid "venues"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:449
+msgid "staff"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:454
+msgid "officials"
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:505
+msgid "Select import type. Then copy and paste data from your source into the table below."
+msgstr ""
+
+#: sports-leagues/admin/views/tools-import.php:511
+msgid "more info"
+msgstr ""
+
+#: sports-leagues/admin/views/tools.php:28
+msgid "Batch Import"
+msgstr ""
+
+#: sports-leagues/admin/views/tools.php:32
+msgid "CSV Export"
+msgstr ""
+
+#: sports-leagues/admin/views/tutorials.php:118
+msgid "Sport Configurator in details"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:547
+msgid "It is prohibited to delete a Tournament with Games. First, remove the attached Games."
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:583
+msgid "It is prohibited to delete a League or a Season that has Competitions linked to it."
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:754
+msgid "Install plugin"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:752
+msgid "Activate plugin"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:757
+msgid "Plugin page at wp.org"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:798
+msgid "Changelog"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:799, sports-leagues/class-sports-leagues.php:882
+msgid "Go Premium"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:816
+msgctxt "admin page title"
+msgid "Sports Leagues"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:817, sports-leagues/class-sports-leagues.php:1470, sports-leagues/class-sports-leagues.php:1732, sports-leagues/class-sports-leagues.php:2069
+msgctxt "admin menu title"
+msgid "Sports Leagues"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:833, sports-leagues/class-sports-leagues.php:834
+msgid "Dashboard"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:841, sports-leagues/class-sports-leagues.php:842
+msgid "Quick Start"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:857, sports-leagues/class-sports-leagues.php:858, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:947, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:952, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:957, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:962, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:967, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:972
+msgid "Shortcodes"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:865, sports-leagues/class-sports-leagues.php:866
+msgid "Toolbox"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:873, sports-leagues/class-sports-leagues.php:874
+msgid "Support"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:889, sports-leagues/class-sports-leagues.php:890
+msgid "Customize"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:897
+msgid "Import Data"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:898
+msgid "Import Data Tool"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:969, sports-leagues/class-sports-leagues.php:970, sports-leagues/includes/class-sports-leagues-text.php:444, sports-leagues/templates/player/player-stats--v1.php:62, sports-leagues/templates/player/player-stats--v2.php:71, sports-leagues/templates/player/player-stats.php:71
+msgid "Player Stats"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:1471, sports-leagues/class-sports-leagues.php:1733, sports-leagues/class-sports-leagues.php:2079, sports-leagues/includes/class-sports-leagues-options.php:412
+msgctxt "admin menu title"
+msgid "Sports Settings"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2097
+msgid "start typing name or title ..."
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2101, sports-leagues/includes/class-sports-leagues-customizer.php:528, sports-leagues/includes/class-sports-leagues-data.php:449, sports-leagues/includes/class-sports-leagues-helper.php:2059, sports-leagues/includes/class-sports-leagues-helper.php:2102, sports-leagues/includes/class-sports-leagues-options.php:556, sports-leagues/includes/class-sports-leagues-staff.php:350, sports-leagues/includes/class-sports-leagues-text.php:867, sports-leagues/includes/class-sports-leagues-text.php:966, sports-leagues/includes/class-sports-leagues-text.php:1065, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:550, sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:68, sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:63, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:68, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:108, sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:63, sports-leagues/templates/player/player-total-stats--v1.php:83, sports-leagues/templates/player/player-total-stats--v2.php:97, sports-leagues/templates/player/player-total-stats.php:97, sports-leagues/templates/shortcode-player-card.php:73, sports-leagues/templates/shortcode-standing--mini.php:123, sports-leagues/templates/shortcode-standing.php:143
+msgid "Team"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2107
+msgid "Country/Nationality"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2113, sports-leagues/includes/class-sports-leagues-helper.php:2143, sports-leagues/includes/class-sports-leagues-helper.php:2178
+msgid "Team A"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2119, sports-leagues/includes/class-sports-leagues-helper.php:2144, sports-leagues/includes/class-sports-leagues-helper.php:2179
+msgid "Team B"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2125, sports-leagues/includes/class-sports-leagues-data.php:430, sports-leagues/includes/class-sports-leagues-game.php:652, sports-leagues/includes/class-sports-leagues-game.php:1621, sports-leagues/includes/class-sports-leagues-helper.php:2469, sports-leagues/includes/class-sports-leagues-helper.php:2493, sports-leagues/includes/class-sports-leagues-helper.php:2574, sports-leagues/includes/class-sports-leagues-helper.php:2598, sports-leagues/includes/class-sports-leagues-helper.php:2647, sports-leagues/includes/class-sports-leagues-helper.php:2669, sports-leagues/includes/class-sports-leagues-standing.php:552, sports-leagues/includes/class-sports-leagues-tournament.php:195, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:505, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:697, sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:87, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:92, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:92
+msgid "Season"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2131, sports-leagues/includes/class-sports-leagues-data.php:387, sports-leagues/includes/class-sports-leagues-game.php:646, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:516, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:708, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:100
+msgid "League"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2138
+msgid "Selected Values"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2142, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:234, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:396, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:816, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:826, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:836, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:104, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:154, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:165, sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:103
+msgid "none"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2147
+msgid "Cancel"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2148
+msgid "Insert"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2214
+msgid "load more"
+msgstr ""
+
+#: sports-leagues/class-sports-leagues.php:2248
+msgid "Database Updater"
+msgstr ""
+
+#: sports-leagues/includes/blocks/class-sports-leagues-block-game-countdown.php:58
+msgid "Please specify Competition or Club ID"
+msgstr ""
+
+#: sports-leagues/includes/blocks/class-sports-leagues-block-games.php:93, sports-leagues/includes/blocks/class-sports-leagues-block-last-game.php:85, sports-leagues/includes/blocks/class-sports-leagues-block-next-game.php:85, sports-leagues/includes/blocks/class-sports-leagues-block-players-stats.php:89
+msgid "Output is empty. Try to change your arguments."
+msgstr ""
+
+#: sports-leagues/includes/blocks/class-sports-leagues-block-teams.php:60
+msgid "Please specify Tournament, Stage or Include IDs"
+msgstr ""
+
+#: sports-leagues/includes/blocks/class-sports-leagues-block-teams.php:101
+msgid "No teams"
+msgstr ""
+
+#: sports-leagues/includes/blocks/class-sports-leagues-block-tournament-header.php:57
+msgid "Tournament ID is not set"
+msgstr ""
+
+#: sports-leagues/includes/blocks/class-sports-leagues-block-tournament-header.php:69
+msgid "Incorrect ID"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:148, sports-leagues/includes/class-sports-leagues-data.php:409
+msgid "Played"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:149
+msgid "Win - all"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:150
+msgid "Win - full time"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:151
+msgid "Win - overtime"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:152
+msgid "Win - penalty"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:153, sports-leagues/includes/class-sports-leagues-data.php:364, sports-leagues/includes/class-sports-leagues-helper.php:1509
+msgid "Draw"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:154
+msgid "Loss - all"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:155
+msgid "Loss - full time"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:156
+msgid "Loss - overtime"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:157
+msgid "Loss - penalty"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:158
+msgid "Scores - for"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:159
+msgid "Scores - against"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:160
+msgid "Scores - difference"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:161
+msgid "Ratio (win/played)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:162
+msgid "Bonus Points"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-config.php:163
+msgid "Points"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:240
+msgid "Colors"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:264, sports-leagues/includes/class-sports-leagues-customizer.php:291, sports-leagues/includes/class-sports-leagues-customizer.php:318, sports-leagues/includes/class-sports-leagues-customizer.php:345, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:217
+msgid "default"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:265, sports-leagues/includes/class-sports-leagues-customizer.php:292
+msgid "Background Color"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:319
+msgid "Border Color"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:346
+msgid "Hover Background"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:359, sports-leagues/includes/class-sports-leagues-official.php:320, sports-leagues/includes/class-sports-leagues-options.php:363, sports-leagues/includes/class-sports-leagues-options.php:755, sports-leagues/includes/class-sports-leagues-player.php:576, sports-leagues/includes/class-sports-leagues-staff.php:445, sports-leagues/includes/class-sports-leagues-team.php:268, sports-leagues/includes/class-sports-leagues-team.php:513, sports-leagues/includes/class-sports-leagues-venue.php:165
+msgid "General"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:381
+msgid "Load alternative page layout"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:385, sports-leagues/includes/class-sports-leagues-customizer.php:414, sports-leagues/includes/class-sports-leagues-customizer.php:441, sports-leagues/includes/class-sports-leagues-customizer.php:606, sports-leagues/includes/class-sports-leagues-customizer.php:690, sports-leagues/includes/class-sports-leagues-customizer.php:717, sports-leagues/includes/class-sports-leagues-customizer.php:755, sports-leagues/includes/class-sports-leagues-customizer.php:782, sports-leagues/includes/class-sports-leagues-customizer.php:809, sports-leagues/includes/class-sports-leagues-customizer.php:1031, sports-leagues/includes/class-sports-leagues-data.php:389, sports-leagues/includes/class-sports-leagues-options.php:440, sports-leagues/includes/class-sports-leagues-options.php:630, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:291, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:363, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:595, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:604, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:613, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:622, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:631, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:640, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:649, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:657, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:849, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:858, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:867, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:908, sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:89, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:142, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:119
+msgid "No"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:386, sports-leagues/includes/class-sports-leagues-customizer.php:387, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:214, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:296, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:203, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:75
+msgid "Layout"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:409
+msgid "Hide post title for Game and Tournament"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:411
+msgid "it depends on your theme and sometimes wouldn't work"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:415, sports-leagues/includes/class-sports-leagues-customizer.php:442, sports-leagues/includes/class-sports-leagues-customizer.php:607, sports-leagues/includes/class-sports-leagues-customizer.php:691, sports-leagues/includes/class-sports-leagues-customizer.php:718, sports-leagues/includes/class-sports-leagues-customizer.php:756, sports-leagues/includes/class-sports-leagues-customizer.php:783, sports-leagues/includes/class-sports-leagues-customizer.php:810, sports-leagues/includes/class-sports-leagues-customizer.php:1030, sports-leagues/includes/class-sports-leagues-data.php:465, sports-leagues/includes/class-sports-leagues-options.php:444, sports-leagues/includes/class-sports-leagues-options.php:634, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:290, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:362, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:594, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:603, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:612, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:621, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:630, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:639, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:648, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:658, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:848, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:857, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:866, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:907, sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:90, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:143, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:120
+msgid "Yes"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:437
+msgid "Use monospace font in statistical tables"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:453
+msgid "Layouts"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:475
+msgid "Game >> Players Statistics"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:481, sports-leagues/includes/class-sports-leagues-customizer.php:513
+msgid "Recommended"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:482, sports-leagues/includes/class-sports-leagues-customizer.php:514, sports-leagues/includes/class-sports-leagues-text.php:96
+msgid "Default"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:483, sports-leagues/includes/class-sports-leagues-customizer.php:515
+msgid "(deprecated)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:484, sports-leagues/includes/class-sports-leagues-customizer.php:516
+msgid "for Roster Groups"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:507
+msgid "Team >> Players Statistics"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:539, sports-leagues/includes/class-sports-leagues-data.php:452, sports-leagues/includes/class-sports-leagues-team.php:215, sports-leagues/includes/class-sports-leagues-team.php:357
+msgid "Team Roster"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:561
+msgid "Team Roster layout"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:567
+msgid "Table (default)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:568
+msgid "Grid"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:580, sports-leagues/includes/class-sports-leagues-data.php:462, sports-leagues/includes/class-sports-leagues-options.php:569, sports-leagues/includes/class-sports-leagues-text.php:651, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:539, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:759, sports-leagues/templates/team/team-header.php:133
+msgid "Venue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:602
+msgid "Require consent before loading Map"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:629
+msgid "Map consent - Text"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:652
+msgid "Map consent - Button Text"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:664, sports-leagues/includes/class-sports-leagues-standing.php:855
+msgid "Standing"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:686
+msgid "Show team series"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:713
+msgid "Show \"full screen\" link"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:729, sports-leagues/includes/class-sports-leagues-game.php:576, sports-leagues/includes/class-sports-leagues-game.php:1752
+msgid "Game"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:751
+msgid "Colorize Team Header block"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:778
+msgid "Show player position"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:805
+msgid "Show staff job"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:832
+msgid "Team Series (Form) in game header"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:836, sports-leagues/includes/class-sports-leagues-customizer.php:1059
+msgid "Hide"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:837
+msgid "Show"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:859
+msgid "Period Scores"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:863, sports-leagues/includes/class-sports-leagues-customizer.php:941
+msgid "hide"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:864
+msgid "show in line"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:865
+msgid "show in table"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:876
+msgid "Game List"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:898, sports-leagues/includes/class-sports-leagues-team.php:158, sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:83
+msgid "Team Name"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:902
+msgid "abbreviation"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:903
+msgid "full title"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:914, sports-leagues/includes/class-sports-leagues-game.php:848, sports-leagues/includes/class-sports-leagues-game.php:637, sports-leagues/includes/class-sports-leagues-game.php:1750, sports-leagues/includes/class-sports-leagues-helper.php:2468, sports-leagues/includes/class-sports-leagues-helper.php:2492, sports-leagues/includes/class-sports-leagues-standing.php:548, sports-leagues/includes/class-sports-leagues-standing.php:961, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:341, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:483, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:675, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:68, sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:71, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:76, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:76, sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:71
+msgid "Tournament"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:936
+msgid "Show Season Selector"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:940
+msgid "show"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:963
+msgid "Show Stage Standings Only"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:967, sports-leagues/includes/class-sports-leagues-team.php:626
+msgid "yes"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:968, sports-leagues/includes/class-sports-leagues-team.php:625, sports-leagues/includes/class-sports-leagues-team.php:786
+msgid "no"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:979
+msgid "Player & Staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:1003
+msgid "Default Player Photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:1026
+msgid "Link to the game in Player Stats"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:1053
+msgid "Player Date Of Birth"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:1057
+msgid "Full Date Of Birth"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-customizer.php:1058
+msgid "Only Year"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:44
+msgctxt "country"
+msgid "Afghanistan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:45
+msgctxt "country"
+msgid "Albania"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:46
+msgctxt "country"
+msgid "Algeria"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:47
+msgctxt "country"
+msgid "American Samoa"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:48
+msgctxt "country"
+msgid "Andorra"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:49
+msgctxt "country"
+msgid "Angola"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:50
+msgctxt "country"
+msgid "Anguilla"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:51
+msgctxt "country"
+msgid "Antarctica"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:52
+msgctxt "country"
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:53
+msgctxt "country"
+msgid "Argentina"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:54
+msgctxt "country"
+msgid "Armenia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:55
+msgctxt "country"
+msgid "Aruba"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:56
+msgctxt "country"
+msgid "Australia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:57
+msgctxt "country"
+msgid "Austria"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:58
+msgctxt "country"
+msgid "Azerbaijan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:59
+msgctxt "country"
+msgid "Bahamas"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:60
+msgctxt "country"
+msgid "Bahrain"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:61
+msgctxt "country"
+msgid "Bangladesh"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:62
+msgctxt "country"
+msgid "Barbados"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:63
+msgctxt "country"
+msgid "Belarus"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:64
+msgctxt "country"
+msgid "Belgium"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:65
+msgctxt "country"
+msgid "Belize"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:66
+msgctxt "country"
+msgid "Benin"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:67
+msgctxt "country"
+msgid "Bermuda"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:68
+msgctxt "country"
+msgid "Bhutan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:69
+msgctxt "country"
+msgid "Bolivia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:70
+msgctxt "country"
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:71
+msgctxt "country"
+msgid "Botswana"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:72
+msgctxt "country"
+msgid "Bouvet Island"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:73
+msgctxt "country"
+msgid "Brazil"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:74
+msgctxt "country"
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:75
+msgctxt "country"
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:76
+msgctxt "country"
+msgid "Bulgaria"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:77
+msgctxt "country"
+msgid "Burkina Faso"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:78
+msgctxt "country"
+msgid "Burundi"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:79
+msgctxt "country"
+msgid "Cambodia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:80
+msgctxt "country"
+msgid "Cameroon"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:81
+msgctxt "country"
+msgid "Canada"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:82
+msgctxt "country"
+msgid "Cape Verde"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:83
+msgctxt "country"
+msgid "Cayman Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:84
+msgctxt "country"
+msgid "Central African Republic"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:85
+msgctxt "country"
+msgid "Chad"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:86
+msgctxt "country"
+msgid "Chile"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:87
+msgctxt "country"
+msgid "China"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:88
+msgctxt "country"
+msgid "Christmas Island"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:89
+msgctxt "country"
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:90
+msgctxt "country"
+msgid "Colombia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:91
+msgctxt "country"
+msgid "Comoros"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:92
+msgctxt "country"
+msgid "Republic of the Congo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:93
+msgctxt "country"
+msgid "Democratic Republic of the Congo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:94
+msgctxt "country"
+msgid "Cook Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:95
+msgctxt "country"
+msgid "Costa Rica"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:96
+msgctxt "country"
+msgid "Croatia (Hrvatska)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:97
+msgctxt "country"
+msgid "Cuba"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:98
+msgctxt "country"
+msgid "Curaçao"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:99
+msgctxt "country"
+msgid "Cyprus"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:100
+msgctxt "country"
+msgid "Czech Republic"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:101
+msgctxt "country"
+msgid "Denmark"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:102
+msgctxt "country"
+msgid "Djibouti"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:103
+msgctxt "country"
+msgid "Dominica"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:104
+msgctxt "country"
+msgid "Dominican Republic"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:105
+msgctxt "country"
+msgid "East Timor"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:106
+msgctxt "country"
+msgid "Ecuador"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:107
+msgctxt "country"
+msgid "Egypt"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:108
+msgctxt "country"
+msgid "El Salvador"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:109
+msgctxt "country"
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:110
+msgctxt "country"
+msgid "Eritrea"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:111
+msgctxt "country"
+msgid "Estonia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:112
+msgctxt "country"
+msgid "Ethiopia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:113
+msgctxt "country"
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:114
+msgctxt "country"
+msgid "Faroe Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:115
+msgctxt "country"
+msgid "Fiji"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:116
+msgctxt "country"
+msgid "Finland"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:117
+msgctxt "country"
+msgid "France"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:118
+msgctxt "country"
+msgid "France, Metropolitan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:119
+msgctxt "country"
+msgid "French Guiana"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:120
+msgctxt "country"
+msgid "French Polynesia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:121
+msgctxt "country"
+msgid "French Southern Territories"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:122
+msgctxt "country"
+msgid "Gabon"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:123
+msgctxt "country"
+msgid "Gambia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:124
+msgctxt "country"
+msgid "Georgia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:125
+msgctxt "country"
+msgid "Germany"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:126
+msgctxt "country"
+msgid "Ghana"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:127
+msgctxt "country"
+msgid "Gibraltar"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:128
+msgctxt "country"
+msgid "Guernsey"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:129
+msgctxt "country"
+msgid "Greece"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:130
+msgctxt "country"
+msgid "Greenland"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:131
+msgctxt "country"
+msgid "Grenada"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:132
+msgctxt "country"
+msgid "Guadeloupe"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:133
+msgctxt "country"
+msgid "Guam"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:134
+msgctxt "country"
+msgid "Guatemala"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:135
+msgctxt "country"
+msgid "Guinea"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:136
+msgctxt "country"
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:137
+msgctxt "country"
+msgid "Guyana"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:138
+msgctxt "country"
+msgid "Haiti"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:139
+msgctxt "country"
+msgid "Heard and Mc Donald Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:140
+msgctxt "country"
+msgid "Honduras"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:141
+msgctxt "country"
+msgid "Hong Kong"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:142
+msgctxt "country"
+msgid "Hungary"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:143
+msgctxt "country"
+msgid "Iceland"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:144
+msgctxt "country"
+msgid "India"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:145
+msgctxt "country"
+msgid "Isle of Man"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:146
+msgctxt "country"
+msgid "Indonesia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:147
+msgctxt "country"
+msgid "Iran (Islamic Republic of)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:148
+msgctxt "country"
+msgid "Iraq"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:149
+msgctxt "country"
+msgid "Ireland"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:150
+msgctxt "country"
+msgid "Israel"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:151
+msgctxt "country"
+msgid "Italy"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:152
+msgctxt "country"
+msgid "Ivory Coast"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:153
+msgctxt "country"
+msgid "Jersey"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:154
+msgctxt "country"
+msgid "Jamaica"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:155
+msgctxt "country"
+msgid "Japan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:156
+msgctxt "country"
+msgid "Jordan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:157
+msgctxt "country"
+msgid "Kazakhstan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:158
+msgctxt "country"
+msgid "Kenya"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:159
+msgctxt "country"
+msgid "Kiribati"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:160
+msgctxt "country"
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:161
+msgctxt "country"
+msgid "Korea, Republic of"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:162
+msgctxt "country"
+msgid "Kosovo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:163
+msgctxt "country"
+msgid "Kuwait"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:164
+msgctxt "country"
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:165
+msgctxt "country"
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:166
+msgctxt "country"
+msgid "Latvia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:167
+msgctxt "country"
+msgid "Lebanon"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:168
+msgctxt "country"
+msgid "Lesotho"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:169
+msgctxt "country"
+msgid "Liberia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:170
+msgctxt "country"
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:171
+msgctxt "country"
+msgid "Liechtenstein"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:172
+msgctxt "country"
+msgid "Lithuania"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:173
+msgctxt "country"
+msgid "Luxembourg"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:174
+msgctxt "country"
+msgid "Macau"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:175
+msgctxt "country"
+msgid "Macedonia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:176
+msgctxt "country"
+msgid "Madagascar"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:177
+msgctxt "country"
+msgid "Malawi"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:178
+msgctxt "country"
+msgid "Malaysia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:179
+msgctxt "country"
+msgid "Maldives"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:180
+msgctxt "country"
+msgid "Mali"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:181
+msgctxt "country"
+msgid "Malta"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:182
+msgctxt "country"
+msgid "Marshall Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:183
+msgctxt "country"
+msgid "Martinique"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:184
+msgctxt "country"
+msgid "Mauritania"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:185
+msgctxt "country"
+msgid "Mauritius"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:186
+msgctxt "country"
+msgid "Mayotte"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:187
+msgctxt "country"
+msgid "Mexico"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:188
+msgctxt "country"
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:189
+msgctxt "country"
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:190
+msgctxt "country"
+msgid "Monaco"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:191
+msgctxt "country"
+msgid "Mongolia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:192
+msgctxt "country"
+msgid "Montenegro"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:193
+msgctxt "country"
+msgid "Montserrat"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:194
+msgctxt "country"
+msgid "Morocco"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:195
+msgctxt "country"
+msgid "Mozambique"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:196
+msgctxt "country"
+msgid "Myanmar"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:197
+msgctxt "country"
+msgid "Namibia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:198
+msgctxt "country"
+msgid "Nauru"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:199
+msgctxt "country"
+msgid "Nepal"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:200
+msgctxt "country"
+msgid "Netherlands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:201
+msgctxt "country"
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:202
+msgctxt "country"
+msgid "New Caledonia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:203
+msgctxt "country"
+msgid "New Zealand"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:204
+msgctxt "country"
+msgid "Nicaragua"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:205
+msgctxt "country"
+msgid "Niger"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:206
+msgctxt "country"
+msgid "Nigeria"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:207
+msgctxt "country"
+msgid "Niue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:208
+msgctxt "country"
+msgid "Norfolk Island"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:209
+msgctxt "country"
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:210
+msgctxt "country"
+msgid "Norway"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:211
+msgctxt "country"
+msgid "Oman"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:212
+msgctxt "country"
+msgid "Pakistan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:213
+msgctxt "country"
+msgid "Palau"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:214
+msgctxt "country"
+msgid "Palestine"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:215
+msgctxt "country"
+msgid "Panama"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:216
+msgctxt "country"
+msgid "Papua New Guinea"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:217
+msgctxt "country"
+msgid "Paraguay"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:218
+msgctxt "country"
+msgid "Peru"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:219
+msgctxt "country"
+msgid "Philippines"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:220
+msgctxt "country"
+msgid "Pitcairn"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:221
+msgctxt "country"
+msgid "Poland"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:222
+msgctxt "country"
+msgid "Portugal"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:223
+msgctxt "country"
+msgid "Puerto Rico"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:224
+msgctxt "country"
+msgid "Qatar"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:225
+msgctxt "country"
+msgid "Reunion"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:226
+msgctxt "country"
+msgid "Romania"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:227
+msgctxt "country"
+msgid "Russian Federation"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:228
+msgctxt "country"
+msgid "Rwanda"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:229
+msgctxt "country"
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:230
+msgctxt "country"
+msgid "Saint Lucia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:231
+msgctxt "country"
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:232
+msgctxt "country"
+msgid "Samoa"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:233
+msgctxt "country"
+msgid "San Marino"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:234
+msgctxt "country"
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:235
+msgctxt "country"
+msgid "Saudi Arabia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:236
+msgctxt "country"
+msgid "Senegal"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:237
+msgctxt "country"
+msgid "Serbia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:238
+msgctxt "country"
+msgid "Seychelles"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:239
+msgctxt "country"
+msgid "Sierra Leone"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:240
+msgctxt "country"
+msgid "Singapore"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:241
+msgctxt "country"
+msgid "Slovakia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:242
+msgctxt "country"
+msgid "Slovenia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:243
+msgctxt "country"
+msgid "Solomon Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:244
+msgctxt "country"
+msgid "Somalia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:245
+msgctxt "country"
+msgid "South Africa"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:246
+msgctxt "country"
+msgid "South Sudan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:247
+msgctxt "country"
+msgid "South Georgia South Sandwich Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:248
+msgctxt "country"
+msgid "Spain"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:249
+msgctxt "country"
+msgid "Sri Lanka"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:250
+msgctxt "country"
+msgid "St. Helena"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:251
+msgctxt "country"
+msgid "St. Pierre and Miquelon"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:252
+msgctxt "country"
+msgid "Sudan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:253
+msgctxt "country"
+msgid "Suriname"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:254
+msgctxt "country"
+msgid "Svalbard and Jan Mayen Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:255
+msgctxt "country"
+msgid "Swaziland"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:256
+msgctxt "country"
+msgid "Sweden"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:257
+msgctxt "country"
+msgid "Switzerland"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:258
+msgctxt "country"
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:259
+msgctxt "country"
+msgid "Taiwan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:260
+msgctxt "country"
+msgid "Tajikistan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:261
+msgctxt "country"
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:262
+msgctxt "country"
+msgid "Thailand"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:263
+msgctxt "country"
+msgid "Togo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:264
+msgctxt "country"
+msgid "Tokelau"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:265
+msgctxt "country"
+msgid "Tonga"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:266
+msgctxt "country"
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:267
+msgctxt "country"
+msgid "Tunisia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:268
+msgctxt "country"
+msgid "Turkey"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:269
+msgctxt "country"
+msgid "Turkmenistan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:270
+msgctxt "country"
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:271
+msgctxt "country"
+msgid "Tuvalu"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:272
+msgctxt "country"
+msgid "Uganda"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:273
+msgctxt "country"
+msgid "Ukraine"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:274
+msgctxt "country"
+msgid "United Arab Emirates"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:275
+msgctxt "country"
+msgid "United Kingdom"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:276
+msgctxt "country"
+msgid "United States"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:277
+msgctxt "country"
+msgid "United States minor outlying islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:278
+msgctxt "country"
+msgid "Uruguay"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:279
+msgctxt "country"
+msgid "Uzbekistan"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:280
+msgctxt "country"
+msgid "Vanuatu"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:281
+msgctxt "country"
+msgid "Vatican City State"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:282
+msgctxt "country"
+msgid "Venezuela"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:283
+msgctxt "country"
+msgid "Vietnam"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:284
+msgctxt "country"
+msgid "Virgin Islands (British)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:285
+msgctxt "country"
+msgid "Virgin Islands (U.S.)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:286
+msgctxt "country"
+msgid "Wallis and Futuna Islands"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:287
+msgctxt "country"
+msgid "Western Sahara"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:288
+msgctxt "country"
+msgid "Yemen"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:289
+msgctxt "country"
+msgid "Zaire"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:290
+msgctxt "country"
+msgid "Zambia"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:291
+msgctxt "country"
+msgid "Zimbabwe"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:298
+msgctxt "country"
+msgid "England"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:299
+msgctxt "country"
+msgid "Northern_Ireland"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:300
+msgctxt "country"
+msgid "Scotland"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:301
+msgctxt "country"
+msgid "Wales"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:337
+msgid "add color"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:338
+msgid "Add initial points"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:339
+msgid "Add New Group/Pair"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:340
+msgid "Add New Stage"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:341
+msgid "Add New Round"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:342
+msgid "Add Player or Staff to Season Roster"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:343
+msgid "Add Player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:344
+msgid "Add Official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:345
+msgid "add points"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:346
+msgid "Add table color"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:347
+msgid "Aggregate Text"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:348
+msgid "For Example: \"Agg: 2-2; Team A won on penalties (5-3)\""
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:349
+msgid "Are you sure?"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:350
+msgid "Attach teams to the current table"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:351, sports-leagues/includes/class-sports-leagues-text.php:138, sports-leagues/templates/game/game.php:270
+msgid "Attendance"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:352
+msgid "Automatic position calculation"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:353
+msgid "Available criteria"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:354
+msgid "bonus points for match"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:355
+msgid "Change roster groups, player positions and status in Sport Configurator"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:356, sports-leagues/includes/class-sports-leagues-tournament.php:207, sports-leagues/includes/class-sports-leagues-upgrade.php:580, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:141
+msgid "Close"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:357
+msgid "Color By"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:358
+msgid "Color"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:359
+msgid "Confirm Delete"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:360
+msgid "Current Ranking Criteria"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:361
+msgid "danger"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:362
+msgid "Delete Round"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:363
+msgid "Display Options"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:365
+msgid "edit"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:366
+msgid "edit stage"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:367
+msgid "edit player number"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:368, sports-leagues/includes/class-sports-leagues-game.php:1706
+msgid "Please fill final scores and outcomes for finished game!"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:369
+msgid "Final Score"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:370, sports-leagues/includes/class-sports-leagues-game.php:1806
+msgid "finished"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:371
+msgid "friendly"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:372
+msgid "from previous round"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:373, sports-leagues/includes/class-sports-leagues-helper.php:1524
+msgid "Full-time loss"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:374, sports-leagues/includes/class-sports-leagues-helper.php:1494
+msgid "Full-time win"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:375, sports-leagues/includes/class-sports-leagues-game.php:1636, sports-leagues/includes/class-sports-leagues-game.php:1935, sports-leagues/includes/class-sports-leagues-game.php:3424, sports-leagues/includes/class-sports-leagues-text.php:129, sports-leagues/includes/class-sports-leagues-text.php:714, sports-leagues/includes/class-sports-leagues-text.php:858, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:570, sports-leagues/templates/game/game.php:75, sports-leagues/templates/shortcode-games.php:158, sports-leagues/templates/tournament/tournament-stage.php:249
+msgid "Game Day"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:377
+msgid "Game Kickoff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:378
+msgid "Game Number"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:379
+msgid "Game Setup"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:380, sports-leagues/includes/class-sports-leagues-game.php:729
+msgid "Game Team Stats"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:382, sports-leagues/includes/class-sports-leagues-game.php:1539, sports-leagues/includes/class-sports-leagues-official.php:173, sports-leagues/includes/class-sports-leagues-official.php:411, sports-leagues/includes/class-sports-leagues-standing.php:551, sports-leagues/includes/class-sports-leagues-standing.php:978
+msgid "Group"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:383
+msgid "ignore group structure"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:384
+msgid "info"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:385
+msgid "Knockout"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:386
+msgid "Layout Mini (Widget)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:388
+msgid "Legend"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:390
+msgid "Not available for status"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:391
+msgid "Notes Below Table"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:392
+msgid "Number"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:393
+msgid "official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:394
+msgid "official not exists"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:395, sports-leagues/includes/class-sports-leagues-game.php:744
+msgid "Officials"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:396
+msgid "Oops! No elements found. Consider changing the search query."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:397, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:576, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:123
+msgid "Order"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:398
+msgid "Outcome"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:399
+msgid "overtime"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:400, sports-leagues/includes/class-sports-leagues-helper.php:1519
+msgid "Overtime loss"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:401, sports-leagues/includes/class-sports-leagues-helper.php:1499
+msgid "Overtime win"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:402
+msgid "Pair"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:403
+msgid "Penalty loss"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:404
+msgid "penalty shootout"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:405
+msgid "Penalty win"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:406
+msgid "period"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:407
+msgid "Person Name"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:408
+msgid "place"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:410, sports-leagues/includes/class-sports-leagues-game.php:734
+msgid "Players List"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:411
+msgid "Points and Outcome"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:413
+msgid "Change number of given points in the \"Sport Configurator\" in plugin settings"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:414
+msgid "points for match"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:415
+msgid "Points Initial"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:417
+msgid "primary"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:418
+msgid "Quickly create players with \"Import Data\" Tool"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:419
+msgid "Ranking Criteria"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:420
+msgid "Ranking criteria are used to determine the position of the team in the Standing Table (from top to bottom)."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:421
+msgid "Only works if Automatic Position Calculation is set to \"YES\""
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:422
+msgid "Recommended title is \"LEAGUE - SEASON\" (My League - 2019)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:423
+msgid "Remove group"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:424
+msgid "You can remove only empty Round! Please delete all attached groups/pairs first."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:425, sports-leagues/includes/class-sports-leagues-game.php:857, sports-leagues/includes/class-sports-leagues-game.php:658, sports-leagues/includes/class-sports-leagues-game.php:1629, sports-leagues/includes/class-sports-leagues-standing.php:624, sports-leagues/includes/class-sports-leagues-standing.php:972
+msgid "Round"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:426
+msgid "Round Title"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:428
+msgid "Save and Continue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:429
+msgid "Save Changes"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:431
+msgid "secondary"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:433
+msgid "Select Team"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:434
+msgid "Select max two teams"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:435
+msgid "select venue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:436
+msgid "set outcome"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:437
+msgid "Show all teams ignoring group structure (not recommended)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:438, sports-leagues/includes/class-sports-leagues-game.php:852, sports-leagues/includes/class-sports-leagues-game.php:641, sports-leagues/includes/class-sports-leagues-game.php:1614, sports-leagues/includes/class-sports-leagues-standing.php:550, sports-leagues/includes/class-sports-leagues-standing.php:966, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:840, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:108
+msgid "Stage"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:439
+msgid "Set stage order by entering a number (1 for first, etc.)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:440
+msgid "Stage Status"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:441
+msgid "Stage Title"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:443
+msgid "Standing Table Colors"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:444, sports-leagues/includes/class-sports-leagues-game.php:1805
+msgid "Status"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:445
+msgid "Structure"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:446
+msgid "success"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:447
+msgid "System"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:448
+msgid "Table columns (order and visibility)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:450
+msgid "Team Away"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:451
+msgid "Team Home"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:453
+msgid "Team Initial Points"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:454, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:188, sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:62, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:62, sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:57, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:62, sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:62, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:62, sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:62, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:61, sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:57
+msgid "Title"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:455
+msgid "Tournament Settings"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:456, sports-leagues/includes/class-sports-leagues-helper.php:2573, sports-leagues/includes/class-sports-leagues-helper.php:2597, sports-leagues/includes/class-sports-leagues-text.php:1056, sports-leagues/includes/class-sports-leagues-tournament.php:637, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:258, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:494, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:686, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:76, sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:79, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:84, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:84, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:67, sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:79, sports-leagues/templates/player/player-total-stats--v1.php:82, sports-leagues/templates/player/player-total-stats--v2.php:96, sports-leagues/templates/player/player-total-stats.php:96
+msgid "Tournament Stage"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:457
+msgid "Tournament Stages"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:458
+msgid "Tournament System"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:459
+msgid "Tournament Title"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:460, sports-leagues/includes/class-sports-leagues-game.php:1807
+msgid "upcoming"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:461
+msgid "Use Batch import tool for fast Teams creation"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:463
+msgid "Do you really want to delete Round?"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-data.php:464
+msgid "warning"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:53
+msgctxt "Post type general name"
+msgid "Game"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:54
+msgctxt "Post type singular name"
+msgid "Game"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:55
+msgctxt "Admin Menu text"
+msgid "Game"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:56
+msgctxt "Add New on Toolbar"
+msgid "Game"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:57, sports-leagues/includes/class-sports-leagues-standing.php:51, sports-leagues/includes/class-sports-leagues-venue.php:56
+msgid "Add New"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:58
+msgid "Add New Game"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:59
+msgid "New Game"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:60
+msgid "Edit Game"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:61
+msgid "View Game"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:63
+msgid "Search Games"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:64
+msgid "No Games found."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:65
+msgid "No Games found in Trash."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:545, sports-leagues/includes/class-sports-leagues-game.php:662
+msgid "Edit structure"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:597
+msgid "Please, create a Tournament first."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:843
+msgid "Use the Game Structure editing with caution."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:844
+msgid "Save Game data on the next step to recalculate statistic."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:847
+msgid "Old Structure"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:642, sports-leagues/includes/class-sports-leagues-tournament.php:1466
+msgid "- no title -"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:672, sports-leagues/includes/class-sports-leagues-game.php:685, sports-leagues/includes/class-sports-leagues-team.php:67
+msgid "Edit Team"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:696
+msgid "Your Game Structure is invalid."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:697
+msgid "Game should have published Tournament, Season and League."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:724
+msgid "Outcome & Points"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:739
+msgid "Staff List"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:754, sports-leagues/includes/class-sports-leagues-text.php:210, sports-leagues/templates/game/game-player-stats--v0.php:84, sports-leagues/templates/game/game-player-stats--v1.php:82, sports-leagues/templates/game/game-player-stats--v2.php:79
+msgid "Players Statistics"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:759
+msgid "Game Sidelines"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:764, sports-leagues/includes/class-sports-leagues-game.php:2169
+msgid "Text Content"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:769, sports-leagues/includes/class-sports-leagues-game.php:2220
+msgid "Media"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1533
+msgid "Add official as text string without creating its profile in the site database."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1534
+msgid "Add player as text string without creating its profile in the site database."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1535
+msgid "Add staff as text string without creating its profile in the site database."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1536
+msgid "Add Temporary Official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1537
+msgid "Add Temporary Player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1538
+msgid "Add Temporary Staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1540, sports-leagues/includes/class-sports-leagues-staff.php:540, sports-leagues/includes/class-sports-leagues-text.php:462, sports-leagues/includes/class-sports-leagues-text.php:948, sports-leagues/templates/shortcode-staff-roster--grid.php:94, sports-leagues/templates/staff/staff-header.php:84
+msgid "Job"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1545
+msgid "Saved Official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1546
+msgid "Saved Players"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1547
+msgid "Saved Staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1548
+msgid "Select from the list of officials saved on the site."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1549
+msgid "Select from the list of players saved on the site."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1550
+msgid "Select from the list of staff saved on the site."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1552
+msgid "Temporary Official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1553
+msgid "Temporary Player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1554
+msgid "Temporary Staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1751
+msgid "Kick Off"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1753, sports-leagues/includes/class-sports-leagues-helper.php:2470, sports-leagues/includes/class-sports-leagues-helper.php:2494, sports-leagues/includes/class-sports-leagues-helper.php:2575, sports-leagues/includes/class-sports-leagues-helper.php:2599, sports-leagues/includes/class-sports-leagues-helper.php:2648, sports-leagues/includes/class-sports-leagues-helper.php:2670, sports-leagues/includes/class-sports-leagues-league.php:164, sports-leagues/includes/class-sports-leagues-official.php:412, sports-leagues/includes/class-sports-leagues-player.php:1005, sports-leagues/includes/class-sports-leagues-season.php:298, sports-leagues/includes/class-sports-leagues-staff.php:541, sports-leagues/includes/class-sports-leagues-standing.php:554, sports-leagues/includes/class-sports-leagues-team.php:996, sports-leagues/includes/class-sports-leagues-tournament.php:1059, sports-leagues/includes/class-sports-leagues-venue.php:526
+msgid "ID"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1824, sports-leagues/includes/class-sports-leagues-league.php:51, sports-leagues/includes/class-sports-leagues-standing.php:331, sports-leagues/includes/class-sports-leagues-tournament.php:440
+msgid "All Leagues"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1848, sports-leagues/includes/class-sports-leagues-season.php:50, sports-leagues/includes/class-sports-leagues-standing.php:359, sports-leagues/includes/class-sports-leagues-tournament.php:468
+msgid "All Seasons"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1868
+msgid "Tournament ID"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1886
+msgid "Stage ID"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1901, sports-leagues/includes/class-sports-leagues-player.php:519, sports-leagues/includes/class-sports-leagues-staff.php:163, sports-leagues/includes/class-sports-leagues-team.php:69
+msgid "All Teams"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1920, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:432, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:732
+msgid "Date From"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:1922, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:441, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:741
+msgid "Date To"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2152
+msgid "Text 1"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2152, sports-leagues/includes/class-sports-leagues-text.php:192, sports-leagues/templates/game/game-summary.php:42
+msgid "Game Summary"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2178
+msgid "Text 2"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2178
+msgid "Custom Content"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2203, sports-leagues/includes/class-sports-leagues-game.php:2316
+msgid "Video Source"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2208, sports-leagues/includes/class-sports-leagues-game.php:2321
+msgid "- select source -"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2209, sports-leagues/includes/class-sports-leagues-game.php:2322
+msgid "Media Library"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2210, sports-leagues/includes/class-sports-leagues-game.php:2323
+msgid "Youtube"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2211, sports-leagues/includes/class-sports-leagues-game.php:2324
+msgid "Vimeo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2229, sports-leagues/includes/class-sports-leagues-game.php:2332
+msgid "Video ID (or URL)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2233, sports-leagues/includes/class-sports-leagues-game.php:2336
+msgid "for Youtube or Vimeo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2239, sports-leagues/includes/class-sports-leagues-game.php:2343
+msgid "Video File"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2243, sports-leagues/includes/class-sports-leagues-game.php:2347
+msgid "for Media Library"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2248, sports-leagues/includes/class-sports-leagues-game.php:2352
+msgid "Open Media Library"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2259, sports-leagues/includes/class-sports-leagues-game.php:2364
+msgid "Video Description"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2268, sports-leagues/includes/class-sports-leagues-player.php:584, sports-leagues/includes/class-sports-leagues-player.php:814, sports-leagues/includes/class-sports-leagues-team.php:288, sports-leagues/includes/class-sports-leagues-team.php:878, sports-leagues/includes/class-sports-leagues-team.php:891, sports-leagues/includes/class-sports-leagues-text.php:237, sports-leagues/includes/class-sports-leagues-text.php:246, sports-leagues/includes/class-sports-leagues-text.php:255, sports-leagues/includes/class-sports-leagues-venue.php:177, sports-leagues/includes/class-sports-leagues-venue.php:358, sports-leagues/templates/game/game-gallery.php:47, sports-leagues/templates/player/player-gallery.php:50, sports-leagues/templates/team/team-gallery.php:55
+msgid "Gallery"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2285, sports-leagues/includes/class-sports-leagues-player.php:831, sports-leagues/includes/class-sports-leagues-team.php:901, sports-leagues/includes/class-sports-leagues-venue.php:375
+msgid "Text below gallery"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2302
+msgid "Additional videos"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2304
+msgid "Additional Video"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2305
+msgid "Add Another Video"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2306
+msgid "Remove Video"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2308
+msgid "Are you sure you want to remove?"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-game.php:2393
+msgid "Please re-save untrashed game to update statistics and events."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-helper.php:1504
+msgid "Penalty shootout win"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-helper.php:1514
+msgid "Penalty shootout loss"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-helper.php:2108, sports-leagues/includes/class-sports-leagues-helper.php:2186, sports-leagues/includes/class-sports-leagues-helper.php:2310, sports-leagues/includes/class-sports-leagues-helper.php:2499, sports-leagues/includes/class-sports-leagues-helper.php:2604, sports-leagues/includes/class-sports-leagues-helper.php:2675
+msgid "nothing found"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-helper.php:2145, sports-leagues/includes/class-sports-leagues-helper.php:2180, sports-leagues/includes/class-sports-leagues-text.php:426, sports-leagues/includes/class-sports-leagues-text.php:1020, sports-leagues/templates/player/player-missed.php:50, sports-leagues/templates/player/player-stats--v1.php:103, sports-leagues/templates/player/player-stats--v1.php:189, sports-leagues/templates/player/player-stats--v2.php:125, sports-leagues/templates/player/player-stats--v2.php:210, sports-leagues/templates/player/player-stats.php:121, sports-leagues/templates/player/player-stats.php:198
+msgid "Date"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-helper.php:2146, sports-leagues/includes/class-sports-leagues-helper.php:2181
+msgid "Scores"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:47
+msgctxt "taxonomy general name"
+msgid "Leagues"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:48
+msgctxt "taxonomy singular name"
+msgid "League"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:49
+msgid "Search Leagues"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:50
+msgid "Popular Leagues"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:54
+msgid "Edit League"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:55
+msgid "Update League"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:56
+msgid "Add New League"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:57
+msgid "New League Title"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:58
+msgid "Separate Leagues with commas"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:59
+msgid "Add or remove Leagues"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:60
+msgid "Choose from the most used Leagues"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:61
+msgid "No Leagues found."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:62
+msgid "Leagues"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:107
+msgid "League Info"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-league.php:122
+msgid "select country"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:52
+msgctxt "Post type general name"
+msgid "Officials"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:53
+msgctxt "Post type singular name"
+msgid "Official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:54
+msgctxt "Add New on Toolbar"
+msgid "Official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:55, sports-leagues/includes/class-sports-leagues-official.php:56
+msgid "Add New Official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:57
+msgid "New Official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:58
+msgid "Edit Official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:59
+msgid "View Official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:60
+msgid "All Officials"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:61
+msgid "Search Officials"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:62
+msgid "No Officials found."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:63
+msgid "No Officials found in Trash."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:64
+msgid "Official photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:65
+msgid "Set Official photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:66
+msgid "Remove Official photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:67
+msgid "Use as Official photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:151
+msgid "Official Data"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:176, sports-leagues/includes/class-sports-leagues-options.php:424, sports-leagues/includes/class-sports-leagues-player.php:700, sports-leagues/includes/class-sports-leagues-player.php:711, sports-leagues/includes/class-sports-leagues-staff.php:247, sports-leagues/includes/class-sports-leagues-staff.php:353, sports-leagues/includes/class-sports-leagues-team.php:562, sports-leagues/includes/class-sports-leagues-team.php:802, sports-leagues/includes/class-sports-leagues-team.php:866
+msgid "- not selected -"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:212, sports-leagues/includes/class-sports-leagues-player.php:776, sports-leagues/includes/class-sports-leagues-staff.php:292, sports-leagues/includes/class-sports-leagues-team.php:633, sports-leagues/includes/class-sports-leagues-venue.php:300
+msgid "External ID"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:215, sports-leagues/includes/class-sports-leagues-player.php:779, sports-leagues/includes/class-sports-leagues-staff.php:295, sports-leagues/includes/class-sports-leagues-team.php:636, sports-leagues/includes/class-sports-leagues-venue.php:303
+msgid "Used on Data Import"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:245, sports-leagues/includes/class-sports-leagues-official.php:328, sports-leagues/includes/class-sports-leagues-options.php:371, sports-leagues/includes/class-sports-leagues-options.php:760, sports-leagues/includes/class-sports-leagues-player.php:592, sports-leagues/includes/class-sports-leagues-player.php:933, sports-leagues/includes/class-sports-leagues-staff.php:387, sports-leagues/includes/class-sports-leagues-staff.php:457, sports-leagues/includes/class-sports-leagues-team.php:293, sports-leagues/includes/class-sports-leagues-team.php:915, sports-leagues/includes/class-sports-leagues-team.php:923, sports-leagues/includes/class-sports-leagues-venue.php:173, sports-leagues/includes/class-sports-leagues-venue.php:345
+msgid "Custom Fields"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:256, sports-leagues/includes/class-sports-leagues-player.php:944, sports-leagues/includes/class-sports-leagues-staff.php:398, sports-leagues/includes/class-sports-leagues-team.php:932, sports-leagues/includes/class-sports-leagues-tournament.php:1924, sports-leagues/includes/class-sports-leagues-venue.php:384
+msgid "Content"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:332, sports-leagues/includes/class-sports-leagues-player.php:596, sports-leagues/includes/class-sports-leagues-staff.php:461, sports-leagues/includes/class-sports-leagues-team.php:298, sports-leagues/includes/class-sports-leagues-team.php:950, sports-leagues/includes/class-sports-leagues-tournament.php:1829, sports-leagues/includes/class-sports-leagues-venue.php:181
+msgid "Bottom Content"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-official.php:410, sports-leagues/includes/class-sports-leagues-player.php:1001, sports-leagues/includes/class-sports-leagues-staff.php:538
+msgid "Photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:75
+msgid "Sports Leagues :: Settings"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:123
+msgid "SL Game base"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:131
+msgid "SL Tournament base"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:139
+msgid "SL Team base"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:147
+msgid "SL Player base"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:155
+msgid "SL Official base"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:163
+msgid "SL Staff base"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:171
+msgid "SL Venue base"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:185
+msgctxt "slug"
+msgid "game"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:196
+msgctxt "slug"
+msgid "tournament"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:207
+msgctxt "slug"
+msgid "team"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:218
+msgctxt "slug"
+msgid "player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:229
+msgctxt "slug"
+msgid "official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:240
+msgctxt "slug"
+msgid "staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:251
+msgctxt "slug"
+msgid "venue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:367
+msgid "Display"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:375, sports-leagues/includes/class-sports-leagues-options.php:613
+msgid "Service Links"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:421
+msgid "Active Season"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:432
+msgid "Hide not used seasons"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:433
+msgid "Hide not used seasons in the Seasons Dropdown"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:452
+msgid "Team listed first (Team A)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:457
+msgid "Home"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:458
+msgid "Away"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:465
+msgid "Game title generation rules"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:468
+msgid "Available placeholders"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:468
+msgid "E.g.: %team_a% - %team_b% %scores_a%:%scores_b% - %kickoff%"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:474
+msgid "Video Player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:479
+msgid "Use YouTube player only (Vimeo and custom videos will be ignored)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:480
+msgid "Use YouTube player for own video and Plyr player for Vimeo and custom videos"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:481
+msgid "Use Plyr player for all video types (YouTube, Vimeo, custom)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:489
+msgid "Google Maps API Key"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:490
+msgid "Google Map is used to locate venues. You can get key here - "
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:503
+msgid "Most of the plugin display settings are available in Customizer."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:504
+msgid "Open Customizer"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:509
+msgid "Custom Game Date format"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:520
+msgid "Custom Game Time format"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:537
+msgid "Set Custom Fields for"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:542, sports-leagues/includes/class-sports-leagues-text.php:219, sports-leagues/includes/class-sports-leagues-text.php:696, sports-leagues/includes/class-sports-leagues-text.php:831, sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:26, sports-leagues/templates/game/game-player-stats--v0.php:102, sports-leagues/templates/game/game-player-stats--v0.php:185, sports-leagues/templates/game/game-player-stats--v1.php:164, sports-leagues/templates/game/game-player-stats--v1.php:101, sports-leagues/templates/game/game-player-stats--v1.php:303, sports-leagues/templates/game/game-player-stats--v1.php:240, sports-leagues/templates/game/game-player-stats--v2.php:102, sports-leagues/templates/game/game-player-stats--v2.php:188, sports-leagues/templates/shortcode-players-stats.php:82, sports-leagues/templates/shortcode-team-players-stats--v0.php:88, sports-leagues/templates/shortcode-team-players-stats--v0.php:164, sports-leagues/templates/shortcode-team-players-stats--v1.php:164, sports-leagues/templates/shortcode-team-players-stats--v1.php:233, sports-leagues/templates/shortcode-team-players-stats--v1.php:77, sports-leagues/templates/shortcode-team-players-stats--v1.php:145, sports-leagues/templates/shortcode-team-players-stats--v2.php:94, sports-leagues/templates/shortcode-team-players-stats--v2.php:165
+msgid "Player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:548, sports-leagues/includes/class-sports-leagues-options.php:561, sports-leagues/includes/class-sports-leagues-options.php:574, sports-leagues/includes/class-sports-leagues-options.php:587, sports-leagues/includes/class-sports-leagues-options.php:600
+msgid "Add field"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:582, sports-leagues/includes/class-sports-leagues-team.php:308, sports-leagues/includes/class-sports-leagues-text.php:183, sports-leagues/includes/class-sports-leagues-text.php:921, sports-leagues/templates/game/game-staff.php:65, sports-leagues/templates/shortcode-staff-roster--grid.php:52, sports-leagues/templates/shortcode-staff-roster.php:51
+msgid "Staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:595
+msgid "Official"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:623
+msgid "Load Gutenberg Blocks"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:642
+msgid "Plugin Cache System"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:649
+msgid "Disabled"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:653, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:387
+msgid "Active"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:696
+msgid "Only use it if you know what you're doing."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:699
+msgid "Recalculate Sports Leagues DB index tables"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:722
+msgid "Flush plugin cache (transients)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:750, sports-leagues/includes/class-sports-leagues-options.php:755, sports-leagues/includes/class-sports-leagues-options.php:760, sports-leagues/includes/class-sports-leagues-standing.php:156, sports-leagues/includes/class-sports-leagues-standing.php:157
+msgid "Settings"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-options.php:750
+msgid "Display Tab"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:52
+msgctxt "Post type general name"
+msgid "Players"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:53
+msgctxt "Post type singular name"
+msgid "Player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:54
+msgctxt "Admin Menu text"
+msgid "Persons"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:55
+msgctxt "Add New on Toolbar"
+msgid "Player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:56, sports-leagues/includes/class-sports-leagues-player.php:57
+msgid "Add New Player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:58
+msgid "New Player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:59
+msgid "Edit Player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:60
+msgid "View Player"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:61
+msgid "All Players"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:62
+msgid "Search Players"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:63
+msgid "No players found."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:64
+msgid "No players found in Trash."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:65
+msgid "Person photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:66
+msgid "Set person photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:67
+msgid "Remove person photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:68
+msgid "Use as person photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:588, sports-leagues/includes/class-sports-leagues-team.php:278, sports-leagues/includes/class-sports-leagues-team.php:682, sports-leagues/includes/class-sports-leagues-text.php:660, sports-leagues/templates/player/player-header.php:204, sports-leagues/templates/team/team-header.php:156
+msgid "Social"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:648
+msgid "Player Data"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:767
+msgid "Date of death"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:845, sports-leagues/includes/class-sports-leagues-team.php:675
+msgid "Twitter"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:855, sports-leagues/includes/class-sports-leagues-team.php:691
+msgid "Facebook"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:864, sports-leagues/includes/class-sports-leagues-team.php:700
+msgid "YouTube"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:873, sports-leagues/includes/class-sports-leagues-team.php:710
+msgid "LinkedIn"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:882, sports-leagues/includes/class-sports-leagues-team.php:719
+msgid "TikTok"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:891, sports-leagues/includes/class-sports-leagues-team.php:728
+msgid "VKontakte"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:900, sports-leagues/includes/class-sports-leagues-team.php:737
+msgid "Discord"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:909, sports-leagues/includes/class-sports-leagues-team.php:746
+msgid "Twitch"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-player.php:918, sports-leagues/includes/class-sports-leagues-team.php:755
+msgid "Instagram"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:46
+msgctxt "taxonomy general name"
+msgid "Seasons"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:47
+msgctxt "taxonomy singular name"
+msgid "Season"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:48
+msgid "Search Seasons"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:49
+msgid "Popular Seasons"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:53
+msgid "Edit Season"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:54
+msgid "Update Season"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:55
+msgid "Add New Season"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:56
+msgid "New Season Title"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:57
+msgid "Separate Seasons with commas"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:58
+msgid "Add or remove Seasons"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:59
+msgid "Choose from the most used Seasons"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:60
+msgid "No Seasons found."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:61
+msgid "Seasons"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-season.php:331
+msgid "Recommended season name is \"YYYY\" or \"YYYY-YYYY\". E.g.: \"2018\" or \"2017-2018\""
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:52
+msgctxt "Post type general name"
+msgid "Staffs"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:53
+msgctxt "Post type singular name"
+msgid "Staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:54
+msgctxt "Add New on Toolbar"
+msgid "Staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:55, sports-leagues/includes/class-sports-leagues-staff.php:56
+msgid "Add New Staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:57
+msgid "New Staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:58
+msgid "Edit Staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:59
+msgid "View Staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:60
+msgid "All Staffs"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:61
+msgid "Search Staffs"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:62
+msgid "No Staffs found."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:63
+msgid "No Staffs found in Trash."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:64
+msgid "Staff photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:65
+msgid "Set Staff photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:66
+msgid "Remove Staff photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:67
+msgid "Use as Staff photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:222
+msgid "Staff Data"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:310
+msgid "Entry {#}"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:311
+msgid "Add Another Entry"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:312
+msgid "Remove Entry"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:330, sports-leagues/includes/class-sports-leagues-text.php:552, sports-leagues/templates/staff/staff-history.php:48
+msgid "From"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:340, sports-leagues/includes/class-sports-leagues-text.php:561, sports-leagues/templates/staff/staff-history.php:49
+msgid "To"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-staff.php:449
+msgid "Job History"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:47
+msgctxt "Post type general name"
+msgid "Standing"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:48
+msgctxt "Post type singular name"
+msgid "Standing"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:49
+msgctxt "Admin Menu text"
+msgid "Standings"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:50
+msgctxt "Add New on Toolbar"
+msgid "Standing"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:52
+msgid "Add New Standing"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:53
+msgid "New Standing"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:54
+msgid "Edit Standing"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:55
+msgid "View Standing"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:56
+msgid "Standings"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:57
+msgid "Search Standings"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:58
+msgid "No Standings found."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:59
+msgid "No Standings found in Trash."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:549, sports-leagues/includes/class-sports-leagues-team.php:995
+msgid "Logo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:605, sports-leagues/includes/class-sports-leagues-tournament.php:170, sports-leagues/includes/class-sports-leagues-tournament.php:208
+msgid "Clone"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:639
+msgid "Standing Table's group not exists"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:1038
+msgid "Cloning Standing Table"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:955
+msgid "General Structure"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:1008
+msgid "Add or remove teams on Tournament page"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:1619
+msgid "Standing Extra Options"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-standing.php:1645, sports-leagues/includes/class-sports-leagues-standing.php:1693
+msgid "Table Notes"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:60
+msgctxt "Post type general name"
+msgid "Teams"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:61
+msgctxt "Post type singular name"
+msgid "Team"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:62
+msgctxt "Admin Menu text"
+msgid "Teams"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:63
+msgctxt "Add New on Toolbar"
+msgid "Team"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:64, sports-leagues/includes/class-sports-leagues-team.php:65
+msgid "Add New Team"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:66
+msgid "New Team"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:68
+msgid "View Team"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:70
+msgid "Search Teams"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:71
+msgid "No Teams found."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:72
+msgid "No Teams found in Trash."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:73
+msgid "Team logo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:74
+msgid "Set Team logo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:75
+msgid "Remove Team logo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:76
+msgid "Use as Team logo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:362
+msgid "Please, create a season first."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:283, sports-leagues/includes/class-sports-leagues-team.php:775
+msgid "Subteams"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:303, sports-leagues/includes/class-sports-leagues-text.php:876, sports-leagues/templates/shortcode-roster--grid.php:47, sports-leagues/templates/shortcode-roster-summary--grid.php:88, sports-leagues/templates/shortcode-roster-summary.php:88, sports-leagues/templates/shortcode-roster.php:47
+msgid "Roster"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:463, sports-leagues/includes/class-sports-leagues-team.php:475, sports-leagues/includes/class-sports-leagues-tournament.php:1876, sports-leagues/includes/class-sports-leagues-tournament.php:1888
+msgid "Small Logo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:507
+msgid "Abbreviation/Short Name"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:523
+msgid "Team Code (2-4 letters)"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:559
+msgid "Home Venue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:595, sports-leagues/includes/class-sports-leagues-text.php:633, sports-leagues/templates/team/team-header.php:123
+msgid "Conference"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:603, sports-leagues/includes/class-sports-leagues-text.php:642, sports-leagues/templates/team/team-header.php:128
+msgid "Division"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:611
+msgid "Team Main Color"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:770
+msgid "Subteam Status"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:787
+msgid "root team / summary"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:788
+msgid "subteam"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:795
+msgid "Root Team"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:809
+msgid "Root Page Type"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:816
+msgid "root team"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:817
+msgid "summary page"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:824
+msgid "Root Team Title"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:840
+msgid "Subteam {#}"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:841
+msgid "Add Another Subteam"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:842
+msgid "Remove Subteam"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:852
+msgid "Subteam Title"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:861
+msgid "Subteam"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:997
+msgid "Team Color"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-team.php:998
+msgid "Abbr"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:59, sports-leagues/includes/class-sports-leagues-text.php:123
+msgid "Text Options"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:89
+msgid "Search Text String"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:97
+msgid "New"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:98
+msgid "Context"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:130, sports-leagues/includes/class-sports-leagues-text.php:139, sports-leagues/includes/class-sports-leagues-text.php:148, sports-leagues/includes/class-sports-leagues-text.php:157
+msgid "game :: header"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:147
+msgid "game preview"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:156, sports-leagues/templates/game/game.php:236
+msgid "Full Time"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:165, sports-leagues/templates/game/game-latest.php:38
+msgid "Latest Games"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:166
+msgid "game :: latest"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:174, sports-leagues/templates/game/game-players.php:68
+msgid "Players"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:175
+msgid "game :: players"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:184
+msgid "game :: staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:193
+msgid "game :: summary"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:201, sports-leagues/templates/game/game-team-stats.php:121
+msgid "Team Statistics"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:202
+msgid "game :: team-stats"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:211, sports-leagues/includes/class-sports-leagues-text.php:220
+msgid "game :: player-stats"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:228, sports-leagues/templates/game/game-video.php:54
+msgid "Video"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:229
+msgid "game :: video"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:238
+msgid "game :: gallery"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:247
+msgid "team :: gallery"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:256
+msgid "player :: gallery"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:264, sports-leagues/templates/player/player-games.php:46
+msgid "Played Games"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:265
+msgid "player :: player games"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:273, sports-leagues/templates/official/official-header.php:83
+msgctxt "official group label"
+msgid "Group"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:274, sports-leagues/includes/class-sports-leagues-text.php:283, sports-leagues/includes/class-sports-leagues-text.php:292, sports-leagues/includes/class-sports-leagues-text.php:301, sports-leagues/includes/class-sports-leagues-text.php:310
+msgid "official :: header"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:300, sports-leagues/includes/class-sports-leagues-text.php:372, sports-leagues/includes/class-sports-leagues-text.php:498, sports-leagues/templates/official/official-header.php:105, sports-leagues/templates/player/player-header.php:156, sports-leagues/templates/staff/staff-header.php:111
+msgid "Date Of Birth"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:309, sports-leagues/includes/class-sports-leagues-text.php:390, sports-leagues/includes/class-sports-leagues-text.php:507, sports-leagues/includes/class-sports-leagues-text.php:894, sports-leagues/includes/class-sports-leagues-text.php:930, sports-leagues/templates/official/official-header.php:116, sports-leagues/templates/player/player-header.php:165, sports-leagues/templates/shortcode-roster--grid.php:118, sports-leagues/templates/shortcode-roster-summary--grid.php:157, sports-leagues/templates/shortcode-roster-summary.php:156, sports-leagues/templates/shortcode-roster.php:115, sports-leagues/templates/shortcode-staff-roster--grid.php:101, sports-leagues/templates/shortcode-staff-roster.php:97, sports-leagues/templates/staff/staff-header.php:122
+msgid "Age"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:319, sports-leagues/includes/class-sports-leagues-text.php:328, sports-leagues/includes/class-sports-leagues-text.php:337, sports-leagues/includes/class-sports-leagues-text.php:346, sports-leagues/includes/class-sports-leagues-text.php:355, sports-leagues/includes/class-sports-leagues-text.php:364, sports-leagues/includes/class-sports-leagues-text.php:373, sports-leagues/includes/class-sports-leagues-text.php:382, sports-leagues/includes/class-sports-leagues-text.php:391, sports-leagues/includes/class-sports-leagues-text.php:400, sports-leagues/includes/class-sports-leagues-text.php:409
+msgid "player :: header"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:381, sports-leagues/templates/player/player-header.php:184
+msgid "Date Of Death"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:417, sports-leagues/templates/player/player-birthday-card.php:77
+msgid "years"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:418
+msgid "player :: birthdays"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:427, sports-leagues/includes/class-sports-leagues-text.php:436, sports-leagues/includes/class-sports-leagues-text.php:445, sports-leagues/includes/class-sports-leagues-text.php:454
+msgid "player :: player stats"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:435, sports-leagues/templates/player/player-stats--v1.php:104, sports-leagues/templates/player/player-stats--v1.php:190, sports-leagues/templates/player/player-stats--v2.php:126, sports-leagues/templates/player/player-stats--v2.php:211, sports-leagues/templates/player/player-stats.php:122, sports-leagues/templates/player/player-stats.php:199
+msgid "VS"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:453, sports-leagues/includes/class-sports-leagues-text.php:1083, sports-leagues/includes/class-sports-leagues-text.php:1110, sports-leagues/includes/class-sports-leagues-text.php:1119, sports-leagues/templates/official/official-games.php:68, sports-leagues/templates/player/player-stats--v1.php:209, sports-leagues/templates/player/player-stats--v2.php:230, sports-leagues/templates/player/player-stats.php:219, sports-leagues/templates/player/player-total-stats--v1.php:244, sports-leagues/templates/player/player-total-stats--v2.php:234, sports-leagues/templates/player/player-total-stats.php:229, sports-leagues/templates/shortcode-team-players-stats--v0.php:73, sports-leagues/templates/shortcode-team-players-stats--v1.php:253, sports-leagues/templates/shortcode-team-players-stats--v2.php:79, sports-leagues/templates/staff/staff-games.php:68
+msgid "No Data"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:463, sports-leagues/includes/class-sports-leagues-text.php:472, sports-leagues/includes/class-sports-leagues-text.php:481, sports-leagues/includes/class-sports-leagues-text.php:490, sports-leagues/includes/class-sports-leagues-text.php:499, sports-leagues/includes/class-sports-leagues-text.php:508
+msgid "staff :: header"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:516, sports-leagues/includes/class-sports-leagues-text.php:525, sports-leagues/templates/staff/staff-history.php:37
+msgid "Career"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:517, sports-leagues/includes/class-sports-leagues-text.php:526, sports-leagues/includes/class-sports-leagues-text.php:535, sports-leagues/includes/class-sports-leagues-text.php:544, sports-leagues/includes/class-sports-leagues-text.php:553, sports-leagues/includes/class-sports-leagues-text.php:562
+msgid "staff :: history"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:534, sports-leagues/templates/staff/staff-history.php:46
+msgid "Club"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:570, sports-leagues/includes/class-sports-leagues-text.php:786, sports-leagues/includes/class-sports-leagues-text.php:1101, sports-leagues/includes/class-sports-leagues-text.php:1137, sports-leagues/templates/official/official-games.php:59, sports-leagues/templates/staff/staff-games.php:59, sports-leagues/templates/team/team-finished.php:53, sports-leagues/templates/venue/venue-finished.php:53
+msgid "Finished Games"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:571, sports-leagues/includes/class-sports-leagues-text.php:580
+msgid "team :: finished"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:579, sports-leagues/includes/class-sports-leagues-text.php:678, sports-leagues/templates/team/team-finished.php:81, sports-leagues/templates/team/team-upcoming.php:88
+msgid "No games"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:589, sports-leagues/includes/class-sports-leagues-text.php:598, sports-leagues/includes/class-sports-leagues-text.php:607, sports-leagues/includes/class-sports-leagues-text.php:616, sports-leagues/includes/class-sports-leagues-text.php:625, sports-leagues/includes/class-sports-leagues-text.php:634, sports-leagues/includes/class-sports-leagues-text.php:643, sports-leagues/includes/class-sports-leagues-text.php:652, sports-leagues/includes/class-sports-leagues-text.php:661
+msgid "team :: header"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:669, sports-leagues/includes/class-sports-leagues-text.php:1092, sports-leagues/includes/class-sports-leagues-text.php:1128, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:388, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:754, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:89, sports-leagues/templates/official/official-fixtures.php:58, sports-leagues/templates/staff/staff-fixtures.php:58, sports-leagues/templates/team/team-upcoming.php:53
+msgid "Upcoming"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:670, sports-leagues/includes/class-sports-leagues-text.php:679
+msgid "team :: upcoming"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:687
+msgid "No data"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:688, sports-leagues/includes/class-sports-leagues-text.php:697, sports-leagues/includes/class-sports-leagues-text.php:706
+msgid "team :: players stats"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:715
+msgid "tournament :: stage"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:724, sports-leagues/includes/class-sports-leagues-text.php:733, sports-leagues/includes/class-sports-leagues-text.php:742, sports-leagues/includes/class-sports-leagues-text.php:751, sports-leagues/includes/class-sports-leagues-text.php:760, sports-leagues/includes/class-sports-leagues-text.php:769, sports-leagues/includes/class-sports-leagues-text.php:778, sports-leagues/includes/class-sports-leagues-text.php:787, sports-leagues/includes/class-sports-leagues-text.php:796, sports-leagues/includes/class-sports-leagues-text.php:805
+msgid "venue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:777, sports-leagues/includes/class-sports-leagues-text.php:1200, sports-leagues/templates/tournament/tournament-games.php:116, sports-leagues/templates/venue/venue-upcoming.php:53
+msgid "Upcoming Games"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:795, sports-leagues/templates/venue/venue-gallery.php:48
+msgid "Venue Gallery"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:804, sports-leagues/templates/venue/venue-map.php:66
+msgid "Location"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:813, sports-leagues/templates/widget-birthdays.php:40
+msgid "No Upcoming Birthdays"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:814
+msgid "widget :: birthdays"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:822, sports-leagues/templates/shortcode-players-stats.php:81
+msgid "#"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:823, sports-leagues/includes/class-sports-leagues-text.php:832, sports-leagues/includes/class-sports-leagues-text.php:841, sports-leagues/includes/class-sports-leagues-text.php:850
+msgid "shortcode :: players stats"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:840, sports-leagues/templates/shortcode-players-stats.php:87
+msgid "Games Played"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:849, sports-leagues/templates/shortcode-players-stats.php:88
+msgid "GP"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:859
+msgid "shortcode :: games"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:868
+msgid "shortcode :: player card"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:877, sports-leagues/includes/class-sports-leagues-text.php:886, sports-leagues/includes/class-sports-leagues-text.php:895, sports-leagues/includes/class-sports-leagues-text.php:904, sports-leagues/includes/class-sports-leagues-text.php:913
+msgid "shortcode :: roster"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:885, sports-leagues/templates/shortcode-roster--grid.php:56, sports-leagues/templates/shortcode-roster-summary--grid.php:97, sports-leagues/templates/shortcode-roster-summary.php:97, sports-leagues/templates/shortcode-roster.php:56
+msgid "No players in roster"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:922, sports-leagues/includes/class-sports-leagues-text.php:931, sports-leagues/includes/class-sports-leagues-text.php:940, sports-leagues/includes/class-sports-leagues-text.php:949
+msgid "shortcode :: staff"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:957, sports-leagues/templates/shortcode-standing.php:125, sports-leagues/templates/shortcode-standing.php:134
+msgid "show in full screen"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:958, sports-leagues/includes/class-sports-leagues-text.php:967
+msgid "shortcode :: standing"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:975, sports-leagues/templates/game/game-missing.php:113, sports-leagues/templates/game/game-missing.php:179, sports-leagues/templates/player/player-missed.php:80
+msgid "Suspended"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:984, sports-leagues/templates/game/game-missing.php:116, sports-leagues/templates/game/game-missing.php:182, sports-leagues/templates/player/player-missed.php:83
+msgid "Injured"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:993, sports-leagues/templates/game/game-missing.php:53
+msgid "Missing Players"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1002, sports-leagues/templates/player/player-missed.php:41
+msgid "Missed Games"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1011, sports-leagues/templates/player/player-missed.php:52
+msgid "Reason"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1029, sports-leagues/templates/player/player-missed.php:51
+msgid "Against"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1038, sports-leagues/templates/game/game--card-a.php:91, sports-leagues/templates/game/game--classic.php:119, sports-leagues/templates/game/game--modern.php:106, sports-leagues/templates/game/game--slim.php:193, sports-leagues/templates/game/game.php:244
+msgid "Game Postponed"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1047, sports-leagues/templates/player/player-total-stats--v1.php:51, sports-leagues/templates/player/player-total-stats--v2.php:59, sports-leagues/templates/player/player-total-stats.php:62
+msgid "Total Stats"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1074, sports-leagues/templates/player/player-total-stats--v1.php:187, sports-leagues/templates/player/player-total-stats--v2.php:185, sports-leagues/templates/player/player-total-stats.php:180
+msgid "Totals"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1146, sports-leagues/templates/game/game-countdown.php:50
+msgctxt "flip countdown"
+msgid "days"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1155, sports-leagues/templates/game/game-countdown.php:55
+msgctxt "flip countdown"
+msgid "hours"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1164, sports-leagues/templates/game/game-countdown.php:60
+msgctxt "flip countdown"
+msgid "minutes"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1173, sports-leagues/templates/game/game-countdown.php:65
+msgctxt "flip countdown"
+msgid "seconds"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1182, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:385, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:752, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:87, sports-leagues/templates/tournament/tournament-games.php:47
+msgid "All"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1191, sports-leagues/templates/tournament/tournament-games.php:84
+msgid "Latest Scores"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1209, sports-leagues/templates/tournament/tournament-standings.php:75
+msgid "Standing Tables"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1218, sports-leagues/templates/shortcode-games.php:214
+msgid "Load More"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-text.php:1227, sports-leagues/templates/shortcode-players-stats.php:239
+msgid "Show full list"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:52
+msgctxt "Post type general name"
+msgid "Tournaments"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:53
+msgctxt "Post type singular name"
+msgid "Tournament"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:54
+msgctxt "Admin Menu text"
+msgid "Tournaments"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:55
+msgctxt "Add New on Toolbar"
+msgid "Tournament"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:56, sports-leagues/includes/class-sports-leagues-tournament.php:58
+msgid "New Tournament"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:57
+msgid "Add New Tournament"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:59
+msgid "Edit Tournament"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:60
+msgid "View Tournament"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:61
+msgid "All Tournaments"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:62
+msgid "Search Tournaments"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:63
+msgid "No Tournaments found."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:64
+msgid "No Tournaments found in Trash."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:65
+msgid "Tournament logo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:66
+msgid "Set logo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:67
+msgid "Remove logo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:68
+msgid "Use as Tournament logo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:190
+msgid "Clone Tournament"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:628
+msgid "Tournament Config"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:1058
+msgid "Stages"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:1121
+msgid "view"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:1904
+msgid "Tournament Options"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:1979
+msgid "Main Tournament Options"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:1994
+msgid "Tournament Type"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-tournament.php:1998
+msgid "select type"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-upgrade.php:525
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-upgrade.php:529
+msgid "You don&#8217;t have permission to do this."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-upgrade.php:572
+msgid "AnWP Sports Leagues Setup Helper"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-upgrade.php:574
+msgid "Welcome to AnWP Sports Leagues!"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-upgrade.php:576
+msgid "Visit the Dashboard and start building your awesome sport website"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-upgrade.php:579
+msgid "Visit Dashboard"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:52
+msgctxt "Post type general name"
+msgid "Venues"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:53
+msgctxt "Post type singular name"
+msgid "Venue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:54
+msgctxt "Admin Menu text"
+msgid "Venues"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:55
+msgctxt "Add New on Toolbar"
+msgid "Venue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:57
+msgid "Add New Venue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:58
+msgid "New Venue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:59
+msgid "Edit Venue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:60
+msgid "View Venue"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:61
+msgid "Venues"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:62
+msgid "Search Venues"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:63
+msgid "No Venues found."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:64
+msgid "No Venues found in Trash."
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:65
+msgid "Venue photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:66
+msgid "Set Venue photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:67
+msgid "Remove Venue photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:68
+msgid "Use as Venue photo"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:145
+msgid "Venue Name"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:169
+msgid "Info"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:233
+msgid "Venue Data"
+msgstr ""
+
+#: sports-leagues/includes/class-sports-leagues-venue.php:310
+msgid "Map"
+msgstr ""
+
+#: sports-leagues/includes/cmb2-fields/cmb-field-map.php:45
+msgid "Set location"
+msgstr ""
+
+#: sports-leagues/includes/cmb2-fields/cmb-field-map.php:49
+msgid "Latitude"
+msgstr ""
+
+#: sports-leagues/includes/cmb2-fields/cmb-field-map.php:64
+msgid "Longitude"
+msgstr ""
+
+#: sports-leagues/includes/cmb2-fields/cmb-field-map.php:80
+msgid "Reset location"
+msgstr ""
+
+#: sports-leagues/includes/cmb2-fields/cmb-field-map.php:83
+msgid "Address Search"
+msgstr ""
+
+#: sports-leagues/includes/cmb2-fields/cmb-field-map.php:90
+msgid "Please insert Google Maps API Key in plugin settings."
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:142
+msgid "Insert Shortcode"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:204, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:308
+msgid "Exclude Teams"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:218
+msgid "mini"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:223, sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:93
+msgid "Show Partial Data"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:226, sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:94
+msgid "Eg.: \"1-5\" (show teams from 1 to 5 place), \"45\" - show table slice with specified team ID in the middle"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:230, sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:100
+msgid "Show link to"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:235, sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:104
+msgid "tournament"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:240, sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:110
+msgid "Alternative bottom link text"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:270, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:88
+msgid "Logo Height"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:271, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:89
+msgid "Height value with units. Example: \"50px\" or \"3rem\"."
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:279, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:95
+msgid "Logo Width"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:280, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:96
+msgid "Width value with units. Example: \"50px\" or \"3rem\"."
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:287, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:116
+msgid "Show Team Name"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:299, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:78
+msgid "Custom Height and Width"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:300, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:79
+msgid "2 Columns"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:301, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:80
+msgid "3 Columns"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:302, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:81
+msgid "4 Columns"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:303, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:82
+msgid "6 Columns"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:318
+msgid "Include Teams"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:325
+msgid "If this option is set, \"Tournament Stage\" option will be ignored."
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:352
+msgid "Tournament Stage ID"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:359
+msgid "Title as a Link"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:381
+msgid "Tournament Status"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:386, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:753, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:88
+msgid "Finished"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:393, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:813, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:151
+msgid "Sort By Date"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:397, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:580, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:817, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:827, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:155, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:166, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:127
+msgid "Ascending"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:398, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:579, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:818, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:828, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:156, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:167, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:126
+msgid "Descending"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:404, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:585, sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:116, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:121, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:133
+msgid "Limit"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:411
+msgid "Exclude Tournaments"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:421
+msgid "Include Tournaments"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:433, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:442, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:733, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:742, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:128, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:134
+msgid "Format: YYYY-MM-DD"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:461, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:68
+msgid "Stats"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:527, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:719
+msgid "Group ID"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:533, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:725
+msgid "Round ID"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:561, sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:88
+msgid "Game ID"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:591, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:139
+msgid "Soft Limit"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:600, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:149
+msgid "Show Position"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:609, sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:80, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:155
+msgid "Show Team"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:618, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:161
+msgid "Show Nationality"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:627, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:167
+msgid "Show Photo"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:636, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:173
+msgid "Show Games Played"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:645, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:179
+msgid "Link to Profile"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:654
+msgid "Show Full List in Modal"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:749, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:84
+msgid "Game Status"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:770
+msgid "Filter By Teams"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:781, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:121
+msgid "Filter By GameDay"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:782
+msgid "Comma separated list of options"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:790, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:139
+msgid "Dynamic days filter"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:794, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:140
+msgid "For example: \"-2\" from 2 days ago and newer; \"2\" from day after tomorrow and newer"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:798, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:145
+msgid "Dynamic days filter to"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:801
+msgid "For example: \"1\" till tomorrow (tomorrow not included)"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:806, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:95
+msgid "Games Limit"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:823, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:162
+msgid "Sort By GameDay"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:833, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:101
+msgid "Group By"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:837, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:105
+msgid "Day"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:838, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:106
+msgid "Month"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:839, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:107
+msgid "GameDay"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:845, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:173
+msgid "Show team logo"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:854, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:185
+msgid "Show game datetime"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:863
+msgid "Show tournament logo"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:873
+msgid "Show Outcome for team ID"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:880
+msgid "works only in \"slim\" layout"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:884
+msgid "Include IDs"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:890, sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:900
+msgid "comma-separated list of IDs"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:894
+msgid "Exclude IDs"
+msgstr ""
+
+#: sports-leagues/includes/shortcodes/class-sports-leagues-shortcode.php:904
+msgid "Show Load More"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:26
+msgid "Birthdays"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:35
+msgid "Show Upcoming Birthdays."
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:70, sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:65, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:70, sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:65
+msgid "- select team -"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:72
+msgid "Optional, leave empty for all"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:77
+msgid "Type"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:80
+msgid "Players only"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:81
+msgid "Staff only"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:82
+msgid "Players and Staff"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:88
+msgid "Days before birthday"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:94
+msgid "Days after birthday"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-birthdays.php:100
+msgid "Group by date"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:35
+msgid "Show List of Games."
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:70, sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:73, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:78, sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:73
+msgid "- select tournament -"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:78, sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:81, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:86, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:69, sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:81
+msgid "- select stage -"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:95, sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:133
+msgid "0 - for all"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:115
+msgid "Filter By Team IDs"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:116, sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:122
+msgid "Comma separated list of options (if more than one)."
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:127
+msgid "Games from date"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:133
+msgid "Games before date"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:146
+msgid "For example: \"1\" - till tomorrow (tomorrow not included)"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:179
+msgid "Show team name"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:191
+msgid "Bottom Link Text"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:197
+msgid "Bottom Link Url"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:206
+msgid "Modern"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-games.php:207
+msgid "Classic"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:26
+msgid "Last Game"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:35
+msgid "Show Last Game."
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:58
+msgctxt "widget default title"
+msgid "Last Game"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:88, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:93
+msgid "- select season -"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:95, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:100
+msgid "show team name"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:101, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:106
+msgid "Game link text"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:108, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:113, sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:77, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:103
+msgid "Exclude"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-last-game.php:109, sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:114
+msgid "Game IDs, separated by commas."
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:26
+msgid "Next Game"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:35
+msgid "Show Next Game."
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:63
+msgctxt "widget default title"
+msgid "Next Game"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-next-game.php:107
+msgid "- game preview -"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:35
+msgid "Show Single Player."
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:74
+msgid "Options Text"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:75
+msgid "Separate line by \"|\", number and label - with \":\". E.q.: \"Goals: 8 | Assists: 5\""
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:86
+msgid "Show Link to Profile"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:96
+msgid "Profile link text"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-player.php:97
+msgid "profile"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:35
+msgid "Show aggregate players statistics."
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:63
+msgctxt "widget default title"
+msgid "Players Stats"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-players-stats.php:116
+msgid "Filter by Player Position"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:35
+msgid "Show standing table."
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:63
+msgctxt "widget default title"
+msgid "Standing Table"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:68
+msgid "Standing ID"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:70
+msgid "- select standing -"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:78, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:104, sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:111
+msgid "Team IDs, separated by commas."
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-standing.php:86
+msgid "Full"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:34
+msgid "Show Teams Grid"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:62
+msgctxt "widget default title"
+msgid "Teams"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-teams.php:110
+msgid "Include"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:26
+msgid "Game Video"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:35
+msgid "Show Last Game Video."
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:58
+msgctxt "widget default title"
+msgid "Game Video"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget-video.php:89
+msgid "Fill to show video of the specified game"
+msgstr ""
+
+#: sports-leagues/includes/widgets/class-sports-leagues-widget.php:128
+msgid "Widget Documentation"
+msgstr ""
+
+#: sports-leagues/sports-leagues.php:70
+msgid "Sports Leagues cannot run on PHP versions older than 7.0. Please contact your hosting provider to update your site."
+msgstr ""

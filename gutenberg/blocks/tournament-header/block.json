@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "anwp-sl/tournament-header",
+  "title": "Tournament Header",
+  "category": "anwp-sl",
+  "description": "Tournament Header",
+  "textdomain": "sports-leagues",
+  "attributes": {
+    "tournament_id": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_id": {
+      "type": "string",
+      "default": ""
+    },
+    "title_as_link": {
+      "type": "boolean",
+      "default": false
+    },
+    "season_selector": {
+      "type": "boolean",
+      "default": false
+    },
+    "title_field": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "className": false,
+    "customClassName": true,
+    "html": false
+  }
+}

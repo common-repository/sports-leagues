@@ -1,0 +1,120 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "anwp-sl/games",
+  "title": "Games",
+  "category": "anwp-sl",
+  "description": "Games",
+  "textdomain": "sports-leagues",
+  "attributes": {
+    "tournament_id": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_id": {
+      "type": "string",
+      "default": ""
+    },
+    "season_id": {
+      "type": "string",
+      "default": ""
+    },
+    "league_id": {
+      "type": "string",
+      "default": ""
+    },
+    "group_id": {
+      "type": "string",
+      "default": ""
+    },
+    "round_id": {
+      "type": "string",
+      "default": ""
+    },
+    "date_from": {
+      "type": "string",
+      "default": ""
+    },
+    "date_to": {
+      "type": "string",
+      "default": ""
+    },
+    "finished": {
+      "type": "string",
+      "default": ""
+    },
+    "venue_id": {
+      "type": "string",
+      "default": ""
+    },
+    "filter_by_team": {
+      "type": "string",
+      "default": ""
+    },
+    "filter_by_game_day": {
+      "type": "string",
+      "default": ""
+    },
+    "days_offset": {
+      "type": "string",
+      "default": ""
+    },
+    "days_offset_to": {
+      "type": "string",
+      "default": ""
+    },
+    "limit": {
+      "type": "number",
+      "default": 10
+    },
+    "sort_by_date": {
+      "type": "string",
+      "default": ""
+    },
+    "sort_by_game_day": {
+      "type": "string",
+      "default": ""
+    },
+    "group_by": {
+      "type": "string",
+      "default": ""
+    },
+    "show_team_logo": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_game_datetime": {
+      "type": "boolean",
+      "default": true
+    },
+    "tournament_logo": {
+      "type": "boolean",
+      "default": true
+    },
+    "outcome_id": {
+      "type": "string",
+      "default": ""
+    },
+    "exclude_ids": {
+      "type": "string",
+      "default": ""
+    },
+    "include_ids": {
+      "type": "string",
+      "default": ""
+    },
+    "show_load_more": {
+      "type": "boolean",
+      "default": false
+    },
+    "game_layout": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "className": false,
+    "customClassName": true,
+    "html": false
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "anwp-sl/last-game",
+  "title": "Last Game",
+  "category": "anwp-sl",
+  "description": "Last Game",
+  "textdomain": "sports-leagues",
+  "attributes": {
+    "team_id": {
+      "type": "string",
+      "default": ""
+    },
+    "team_a": {
+      "type": "string",
+      "default": ""
+    },
+    "team_b": {
+      "type": "string",
+      "default": ""
+    },
+    "tournament_id": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_id": {
+      "type": "string",
+      "default": ""
+    },
+    "season_id": {
+      "type": "string",
+      "default": ""
+    },
+    "show_team_name": {
+      "type": "boolean",
+      "default": true
+    },
+    "game_link_text": {
+      "type": "string",
+      "default": ""
+    },
+    "exclude_ids": {
+      "type": "string",
+      "default": ""
+    },
+    "include_ids": {
+      "type": "string",
+      "default": ""
+    },
+    "max_size": {
+      "type": "string",
+      "default": ""
+    },
+    "transparent_bg": {
+      "type": "boolean",
+      "default": false
+    },
+    "offset": {
+      "type": "number",
+      "default": 0
+    },
+    "limit": {
+      "type": "number",
+      "default": 1
+    }
+  },
+  "supports": {
+    "className": false,
+    "customClassName": true,
+    "html": false
+  }
+}

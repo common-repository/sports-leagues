@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "anwp-sl/game-countdown",
+  "title": "Game Countdown",
+  "category": "anwp-sl",
+  "description": "Game Countdown",
+  "textdomain": "sports-leagues",
+  "attributes": {
+    "team_id": {
+      "type": "string",
+      "default": ""
+    },
+    "tournament_id": {
+      "type": "string",
+      "default": ""
+    },
+    "season_id": {
+      "type": "string",
+      "default": ""
+    },
+    "exclude_ids": {
+      "type": "string",
+      "default": ""
+    },
+    "include_ids": {
+      "type": "string",
+      "default": ""
+    },
+    "offset": {
+      "type": "string",
+      "default": ""
+    },
+    "label_size": {
+      "type": "string",
+      "default": ""
+    },
+    "value_size": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "className": false,
+    "customClassName": true,
+    "html": false
+  }
+}

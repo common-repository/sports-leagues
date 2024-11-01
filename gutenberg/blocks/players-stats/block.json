@@ -1,0 +1,108 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "anwp-sl/players-stats",
+  "title": "Players Stats",
+  "category": "anwp-sl",
+  "description": "Players Stats",
+  "textdomain": "sports-leagues",
+  "attributes": {
+    "stats_id": {
+      "type": "string",
+      "default": ""
+    },
+    "position": {
+      "type": "string",
+      "default": ""
+    },
+    "tournament_id": {
+      "type": "string",
+      "default": ""
+    },
+    "stage_id": {
+      "type": "string",
+      "default": ""
+    },
+    "game_id": {
+      "type": "string",
+      "default": ""
+    },
+    "team_id": {
+      "type": "string",
+      "default": ""
+    },
+    "season_id": {
+      "type": "string",
+      "default": ""
+    },
+    "league_id": {
+      "type": "string",
+      "default": ""
+    },
+    "group_id": {
+      "type": "string",
+      "default": ""
+    },
+    "round_id": {
+      "type": "string",
+      "default": ""
+    },
+    "venue_id": {
+      "type": "string",
+      "default": ""
+    },
+    "game_day": {
+      "type": "string",
+      "default": ""
+    },
+    "order": {
+      "type": "string",
+      "default": ""
+    },
+    "limit": {
+      "type": "number",
+      "default": 10
+    },
+    "soft_limit": {
+      "type": "boolean",
+      "default": false
+    },
+    "show_position": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_team": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_nationality": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_photo": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_games_played": {
+      "type": "boolean",
+      "default": false
+    },
+    "link_to_profile": {
+      "type": "boolean",
+      "default": false
+    },
+    "class": {
+      "type": "string",
+      "default": ""
+    },
+    "show_full": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "className": false,
+    "customClassName": true,
+    "html": false
+  }
+}

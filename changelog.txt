@@ -1,0 +1,326 @@
+== Changelog ==
+
+= 0.13.4 - 2024-09-18 =
+* improved: minor UI fixes
+* fixed: security fixes
+
+= 0.13.3 - 2024-05-20 =
+* fixed: error on saving temporary player in the game
+
+= 0.13.2 - 2024-05-11 =
+* fixed: shortcode Players Stats: hide zero results
+* fixed: minor fixes
+
+= 0.13.1 - 2024-04-15 =
+* improved: minor improvements in migrator introduced in v0.13.0
+
+= 0.13.0 - 2024-04-08 =
+* added: option to display different formats of player's date of birth
+* changed: increased the minimal version to PHP 7.0
+
+= 0.12.7 - 2023-10-23 =
+* fixed: Team Player Statistics layout data with Roster groups
+
+= 0.12.6 - 2023-10-20 =
+* added: admin Game list: new filters (stage ID, tournament ID, game day)
+* fixes: minor fixes in layouts
+
+= 0.12.5 - 2023-09-11 =
+* added: new Gutenberg Block: Games (based on Games shortcode)
+* added: new Gutenberg Block: Players Stats (based on Players Stats shortcode)
+* added: American Football recommended settings and some specific event icons
+* fixed: show Totals row in the player "Total Stats" section
+* added: Player Statistics: possibility to assign one position to several stat groups
+* added: Player Statistics - Season Stats: min/max options
+
+= 0.12.4 - 2023-08-03 =
+* fixed: new game is not possible to create if the Rank Math SEO plugin is active
+* fixed: season data rendering problem in some cases when the "Hide not used seasons" option is active
+* improved: Standing admin UI
+* added: custom colors in the Standing table (before only predefined)
+* added: new argument in Players Stats shortcode: "show_full" (0/1) to show full list in modal
+* added: new Gutenberg Block: Game Countdown
+* added: new Gutenberg Block: Tournament Header (based on Tournament Header shortcode)
+* added: new Gutenberg Block: Next Game (based on Next Game classic widget)
+* added: new Gutenberg Block: Last Game (based on Last Game classic widget)
+* added: new Gutenberg Block: Teams
+* added: new quick action to clone existing Tournament with all inner Stages
+
+= 0.12.3 - 2023-07-02 =
+* improved: %kickoff% in "Game title generation rules" will use plugin date format (if set in Settings >> Display >> Custom Game Date format)
+* improved: minor style fixes
+
+= 0.12.2 - 2023-06-20 =
+* improved: Import Data Tool
+* added: new Socials on player and team pages
+* added: Standing Settings  - tool to store default Ranking Rules and Columns Visibility (will be applied to a new Standing)
+* added: option in Game Configurator to hide in the Game Edit:  Points, Bonus Points, Penalty Shootout, Overtimes
+
+= 0.12.1 - 2023-05-29 =
+* added: subteams basic functionality
+* added: season dropdown switcher in the Tournament header (can be disabled in Customizer)
+* added: "load more" argument in Games shortcode
+* added: option in Customizer to show only Stage Standings in Tournament
+
+= 0.12.0 - 2023-05-07 =
+* improved: admin Tournament UI
+* added: Stat Groups in Player Statistics
+* improved: admin Player Statistics UI
+* improved: minor admin UI fixes and improvements
+* improved: loading of some plugin's JS scripts
+* added: option in Customizer to load stadium map after user approval
+* changed: Tournament Layout - (new tab style, Latest + Upcoming games with Load More button)
+* removed: Tournament Breadcrumbs (replaced with tabs)
+* changed: Flipped Countdown to a Simple Countdown
+
+= 0.11.0 - 2023-02-20 =
+* fixed: saving Standing Table columns in Sport Configurator
+* added: new Dashboard in the admin part (see screenshot)
+* added: option to hide not used seasons in the season dropdown
+* improved: most of the plugin display settings had been moved to the Customizer
+* added: special integration with SiteOrigin CSS for easy customizing (see the tutorial below)
+* added: possibility to change some general plugin colors in Customizer
+* improved: minor CSS styles improvements
+* added: limit option in Next and Last Game widget
+
+= 0.10.3 - 2022-08-17 =
+* fixed: Game Edit - scores by a period
+* added: Game Edit - sort by game order
+* added: Data Import tool - import venues, staff, and officials
+
+= 0.10.2 - 2022-06-09 =
+* added: possibility to add Player, Official, and Coach to the Game as text strings without creating its profiles in the site database
+* added: Official's and Staff's upcoming and finished games
+* fixed: Birthday Widget - staff photo is not rendering
+* added: new Player's fields: Full Name, National Team, Date of Death
+* improved: Data Import Tool: Players (more fields, Player ID & Player External ID) and Teams
+
+= 0.10.1 - 2021-12-08 =
+* improved: plugin's caching system
+
+= 0.10.0 - 2021-11-30 =
+* improved: performance (added a caching system for some complex queries)
+* improved: admin Sport Configurator page
+* improved: admin Game edit page
+* improved: admin Team edit page
+* minor improvements and fixes
+
+= 0.9.6 - 2021-06-10 =
+* improved: admin team roster UI
+
+= 0.9.5 - 2021-04-17 =
+* added: Player Total Stats section
+* added: option to show period scores as table (Sports Settings >> Display >> Period Scores)
+* added: option to show team series in game header (Sports Settings >> Display >> Team Series in game header)
+* added: support for "time" and "calculated" statistics in "Player Stats" shortcode and widget
+* added: "filter by player position" argument in "Player Stats" shortcode and widget
+* improved: minor style and bug fixes
+
+= 0.9.4 - 2021-03-21 =
+* fixed: gameday ordering in Games shortcode
+* minor style improvements and fixes
+
+= 0.9.3 - 2021-02-15 =
+* improved: minor style improvements and fixes
+* added: link to the Game in Player Stats block ( Sports Settings >> Display >> Player & Staff )
+* added: "Played Games" block at the player's page
+
+= 0.9.2 - 2021-01-17 =
+* improved: minor style improvements and fixes
+* improved: Game edit - Venue selector (search and a possibility to set default team venue)
+* added: "outcome_id" option in "Games" shortcode to show outcome label
+
+= 0.9.1 - 2021-01-10 =
+* improved: Game Event Configurator
+* improved: CSS styles - added prefixes to grid classes to prevent conflicts with some themes
+* added: YouTube default player. Now you can select which video player to use (see screenshot).
+* added: Player social pages
+* added: Game Sidelines (Missing Players)
+* added: Teams Widget - "include_ids" option
+* fixed: Teams Shortcode and Widget - show team name when abbreviation is not set
+* added: Game - new Special Status field with 2 options: "Match Postponed" and "Time To Be Defined"
+
+= 0.9.0 - 2020-12-17 =
+* compatibility improvements with WordPress 5.6
+* added: Player - country option in Place of Birth
+* added: Standing - clone action
+* added: AnWP Selector - used in Widgets to select players and clubs
+* fixed: rendering game metabox when using both Football Leagues and Sports Leagues plugins
+
+= 0.8.1 - 2020-08-15 =
+* fixed: saving game's "Player Stats"
+* improved: minor style fixes for better compatibility with WP 5.5
+
+= 0.8.0 - 2020-05-18 =
+* added: "partial" option in "Standing Table" shortcode and widget to show partial table data
+* improved: game edit admin UI
+* improved: number of overtimes is now dynamic
+* improved: minor improvements and style fixes
+
+= 0.7.2 - 2020-03-28 =
+* added: RTL support in the admin part
+* added: widget "Game Video"
+* added: "include_ids" option in Tournament List shortcode
+* added: "include_ids" option in Teams shortcode
+* improved: Teams shortcode (use abbreviation instead of a full team name, added text truncate on custom size, added tooltip with a full team name)
+* improved: empty roster groups are not rendered
+
+= 0.7.1 - 2020-03-22 =
+* added: breadcrumbs in Tournament and option in Settings to enable/disable
+* fixed: "status" option incorrect work in Tournament List shortcode
+* fixed: rendering non-Latin characters in round and group titles
+* fixed: minor style fixes and improvements
+* premium version released
+
+= 0.7.0 - 2020-03-07 =
+* added: RTL support
+* added: Players Stats widget and shortcode
+* added: Birthdays widget
+* added: teams option in Venue
+* added: additional videos and photo gallery in Game (Game Extra Data >> Media Tab)
+* added: photo gallery in Team and Player
+* added: possibility to enter not only numeric player number
+* added: "exclude Game IDs" option in the Last and Next Game widget
+* added: additional options in Games shortcode - "days_offset_to", "exclude ids", "include ids"
+* fixed: incorrect game time calculation if server timezone option is not "UTC"
+* improved: admin UI, many minor fixes and style improvements
+
+= 0.6.5 - 2019-12-09 =
+* improvements: fixed admin styles in WP 5.3
+* added: improved teams selector in Tournament
+
+= 0.6.4 - 2019-10-21 =
+* added: Game title generation rules
+* added: Setup Helper
+* improved: player roster status rendering
+* improved: recommended settings in Sport Configurator
+* updated: Quick Start guide
+
+= 0.6.3 - 2019-10-07 =
+* added: "group_id" and "round_id" parameter in Games shortcode
+* added: Last Game widget
+* added: Team Social links
+* improved: Next Game widget
+
+= 0.6.2 - 2019-09-30 =
+* fixed: duplicate content on Divi themes
+* improved: logic of the upcoming game countdown
+* improved: minor fixes
+
+= 0.6.1 - 2019-09-09 =
+* added: season players statistics configurator
+* added: game played option in the game player stats
+* added: team season players statistics block
+* added: standing table notes placeholders
+* fixed: remove player stats on game delete
+* fixed: minor player stats improvements
+
+= 0.6.0 - 2019-09-04 =
+* added: configurator for player game statistics
+* added: players statistics block in Game
+* added: player stats block in Player
+* improved: admin UI in the team roster (show player current team, scroll page on drag to the top)
+
+= 0.5.17 - 2019-07-27 =
+* added: search at "Text Options" page
+* added: tournament "subtitle", "date from" and "date to" fields
+* added: shortcode "Tournament List"
+
+= 0.5.16 - 2019-06-30 =
+* introduced Premium add-on
+* fixed: saving empty Event data
+
+= 0.5.15 - 2019-06-24 =
+* added: Game Events
+* fixed: Select2 dropdown in shortcode modal not visible (style conflict with Redux Framework)
+* fixed: Zero handling in game team stats
+
+= 0.5.14 - 2019-06-05 =
+* added: Staff persons
+* added: Text Options (ability to override most of the frontend text strings from the plugin admin)
+* fixed: minor improvements
+
+= 0.5.13 - 2019-05-25 =
+* added: Official persons (referees, delegates, linesmen, etc.)
+* fixed: error on calculating Score For/Against in Standing table
+* fixed: non-unique items in Teams shortcode
+* fixed: minor bug fixes, style and performance improvements
+
+= 0.5.12 - 2019-05-18 =
+* added: "Latest Games" block at Game page
+* added: "show in full screen" link for Standing table (+ option to hide this link in Settings)
+* added: team series in Standing table (+ option to hide in Settings)
+* added: option "Team Series (letter)"
+* fixed: minor bugs and styles issues
+
+= 0.5.11 - 2019-05-08 =
+* added: Shortcode UI helper for Classic editor
+* added: Shortcode builder (Sports Leagues >> Shortcodes >> Shortcode Builder tab)
+* added: Shortcode documentation How To's
+* added: options to override permalink base slugs
+
+= 0.5.10 - 2019-04-30 =
+* added: grid Roster layout (Settings >> Display >> Team)
+* added: option to show full team name or abbreviation in the Standing widget
+* fixed: saving non-numeric game scores
+
+= 0.5.9 - 2019-04-26 =
+* added: Games widget
+* improved: tournament admin list UI
+* improved: widget fields and UI
+* minor style fixes
+
+= 0.5.8 - 2019-04-22 =
+* added: recommended settings for rugby, basketball and ice hockey
+* added: finished and upcoming games on Venue page
+* added: Show player position option  (Settings >> Display)
+* added: Colorize Team Header option (Settings >> Display)
+* added: links to online documentation and support forum
+
+= 0.5.7 - 2019-04-20 =
+* added notice when outcome or final score is not set for finished game
+* fixed rendering not integer game scores
+* minor bug fixes and styles improvements
+
+= 0.5.6 - 2019-04-16 =
+* added Teams widget
+* added Next Game widget
+* added period scores in game header
+* improved game list mobile layout
+* minor bug fixes and styles improvements
+
+= 0.5.5 - 2019-04-15 =
+* added upcoming and latest games blocks at Team page
+* season selector improvements
+* added Games shortcode
+* added matches shortcode
+* added tournament header shortcode
+* added teams shortcode
+* added standing shortcode
+* added shortcodes documentation page at the admin menu
+* added tournament permalink in the game header
+* added date filter in game admin list
+* fixed goals calculation in Standing table
+
+= 0.5.4 - 2019-04-13 =
+* hide game blocks (players, stats) with empty data
+* fixed tournament sorting order
+* added option to hide post title and improved existing functionality
+* added Handball recommended settings (in Sport Configurator)
+* fixed tournament slug creation (page not found error)
+* minor style and bug fixes
+
+= 0.5.3 - 2019-04-05 =
+* improvements at edit Standing Page
+* added team main color option
+* added players list game section
+* added game team stats
+* improved game slim layout
+* improved tournament header block
+* added option to switch to alternative theme layout
+* added link to recalculate index tables
+* added layout for twentysixteen theme
+* minor fixes and style improvements
+
+= 0.5.2 - 2019-04-02 =
+* Initial public release
